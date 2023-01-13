@@ -4,10 +4,10 @@ title: Thread palm
 alternate_names: Mexican fan palm; Washington palm; skyduster
 date: 2023-01-01 10:00:00
 categories: vrview
-image_url: green_space_1.jpg
+image_url: thread_palm_1.jpg
 is_image_360: true
 default_yaw: 0
-thumbnail: green_space_th.jpg
+thumbnail: thread_palm_th.jpg
 lat: 36.81323
 lon: -119.74726
 description: A perfect green space to start and end the walk
