@@ -4,7 +4,7 @@ title: Thread palm
 alternate_names: Mexican fan palm; Washington palm; skyduster
 date: 2023-01-01 10:00:00
 categories: vrview
-image_url: thread_palm_1.jpg
+image_url: thread_palm.jpg
 is_image_360: true
 default_yaw: 0
 thumbnail: thread_palm_th.jpg
