@@ -10,11 +10,11 @@ default_yaw: 0
 thumbnail: thread_palm_th.jpg
 lat: 36.81323
 lon: -119.74726
-description: A perfect green space to start and end the walk
+description: Evergreen, native to northern Mexico, drought tolerant
 stop: 2
-latin: Washingtonia robusta
+latin_name: Washingtonia robusta
 latin_alternates: Washingtonia filamentosa
 wiki: https://en.wikipedia.org/wiki/Washingtonia_robusta
-url: https://www.cal-ipc.org/plants/profile/washingtonia-robusta-profile/
+extra_url: https://www.cal-ipc.org/plants/profile/washingtonia-robusta-profile/
 ---
 Evergreen. Native to northern Mexico. Slender, tapering trunk. Fan-shaped, deeply lobed leaves. Light pink flowers in long inflorescences produce copious quantities of seeds. Drought tolerant.

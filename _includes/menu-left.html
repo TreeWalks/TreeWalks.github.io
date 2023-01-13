@@ -1,12 +1,12 @@
 <div class="mdl-layout__drawer">
-  <span class="mdl-layout-title">Tree Walk</span>
+  <span class="mdl-layout-title">{{ site.short_title }}</span>
   <nav class="mdl-navigation">
-    <a class="mdl-navigation__link" href="{{ site.baseurl }}/">Home</a>
+    <a class="mdl-navigation__link" href="{{ site.baseurl }}/">{{ site.home_title }}</a>
     <a class="mdl-navigation__link" href="{{ site.play_store_url }}">
       <img src="/assets/images/Google_Play_Store_badge_EN.svg">
     </a>
-    <a class="mdl-navigation__link" href="{{ site.website_source_repo }}">Contribute!</a>
-    <a class="mdl-navigation__link" href="{{ site.old_tree_walk }}">Old Tree Walk</a>
+    <a class="mdl-navigation__link" href="{{ site.website_source_repo }}">{{ site.contribute_title }}</a>
+    <a class="mdl-navigation__link" href="{{ site.old_tree_walk }}">{{ site.old_tree_walk_title }}</a>
     {% for post in site.posts reversed %}
       {% if post.title %}
         <a class="mdl-navigation__link" href="{{ post.url | relative_url }}">{{ post.title }}</a>

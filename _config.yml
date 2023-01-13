@@ -1,5 +1,6 @@
 # Site settings
 title: CSU Fresno Tree Walk Map
+short_title: Tree Walk
 email: csaba.toth.us@gmail.com
 description: Redesigned tree walk of indigenious, native, and / or drought tolerant specimen around campus.
 baseurl: "" # the subpath of your site, e.g. /blog/
@@ -29,3 +30,13 @@ gmaps_yo: "AIzaSyDUpDuBL2jGSyyYq4f1RtuxtL4X9JsK5jQ"
 main_map:
   lat: 36.812263
   lon: -119.746558
+
+# For localization
+home_title: Home
+contribute_title: Contribute!
+old_tree_walk_title: Old Tree Walk
+design_title: Design
+alternate_names_title: Alternate names
+latin_name_title: Latin name
+latin_alternates_title: Latin alternate name
+extra_url_title: Extra URL
