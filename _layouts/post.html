@@ -6,22 +6,22 @@ layout: default
     <h1 class="post-title">{{ page.stop }}. {{ page.title }}</h1>
     {% if page.alternate_names %}
       <h2 class="post-subtitle">
-        {{ site.alternate_names_title }}: page.alternate_names
+        {{ site.alternate_names_title }}: {{ page.alternate_names }}
       </h2>
     {% endif %}
     {% if page.latin_name %}
       <h2 class="post-subtitle">
-        {{ site.latin_name_title }}: page.latin_name
+        {{ site.latin_name_title }}: {{ page.latin_name }}
       </h2>
     {% endif %}
     {% if page.latin_alternates %}
       <h2 class="post-subtitle">
-        {{ site.latin_alternates_title }}: page.latin_alternates
+        {{ site.latin_alternates_title }}: {{ page.latin_alternates }}
       </h2>
     {% endif %}
     {% if page.extra_url %}
       <h2 class="post-subtitle">
-        {{ site.extra_url_title }}: page.extra_url
+        {{ site.extra_url_title }}: {{ page.extra_url }}
       </h2>
     {% endif %}
   </header>
