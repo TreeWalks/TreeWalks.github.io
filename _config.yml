@@ -25,7 +25,7 @@ play_store_url: https://play.google.com/store/apps/details?id=dev.csaba.arguide.
 
 # Google Analytics account ID (UA-XXXXXXXX-X)
 google-analytics-ua: UA-86563829-10
-gmaps_yo: "AIzaSyBm7DK2d-zrF1zOOEyDpoMyLiUWwrAROuk"
+gmaps_yo: "AIzaSyDUpDuBL2jGSyyYq4f1RtuxtL4X9JsK5jQ"
 main_map:
   lat: 36.812263
   lon: -119.746558
