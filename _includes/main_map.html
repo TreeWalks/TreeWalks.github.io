@@ -13,6 +13,24 @@
       mapTypeId: google.maps.MapTypeId.ROADMAP
     });
 
+    var walkPathPolyLine = [];
+    for (i = 0; i < walkStops.length; i++) {
+      walkPathPolyLine.push({
+        'lat': walkStops[i][1],
+        'lng': walkStops[i][2],
+      });
+    }
+
+    // create a new polyline using the coordinates array, and add it to the map
+    var walkPath = new google.maps.Polyline({
+      path: walkPathPolyLine,
+      geodesic: true,
+      strokeColor: '#0000FF',
+      strokeOpacity: 1.0,
+      strokeWeight: 2
+    });
+    walkPath.setMap(map);
+
     var infowindow = new google.maps.InfoWindow();
 
     var marker, i;
@@ -26,7 +44,7 @@
       anchor: new google.maps.Point(16, 16),
     };
 
-    for (i = 0; i < walkStops.length; i++) {  
+    for (i = 0; i < walkStops.length; i++) {
       marker = new google.maps.Marker({
         position: new google.maps.LatLng(walkStops[i][1], walkStops[i][2]),
         icon: svgMarker,
