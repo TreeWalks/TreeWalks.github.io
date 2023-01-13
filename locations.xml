@@ -1,0 +1,11 @@
+---
+layout: null
+---
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string-array name="csu_fresno">
+    {% for post in site.posts %}
+      <item>{{ post.lat }},{{ post.lon }},{{ post.title }},{{ post.url | absolute_url }},tree</item>
+    {% endfor %}
+  </string-array>
+</resources>

@@ -1,0 +1,31 @@
+# Site settings
+title: CSU Fresno Tree Walk Map
+email: csaba.toth.us@gmail.com
+description: Redesigned tree walk of indigenious, native, and / or drought tolerant specimen around campus.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: https://treewalks.github.io/ # the base hostname & protocol for your site
+copyright: '&copy; 2023 Csaba Toth'
+
+# Website Links
+old_tree_walk: https://adminfinance.fresnostate.edu/arboretum/treewalk/index.html
+website_source_repo: https://github.com/TreeWalks/TreeWalks.github.io
+website_issues: https://github.com/TreeWalks/TreeWalks.github.io/issues/
+
+# Build settings
+markdown: kramdown
+
+# Custom theme could be generated at: https://getmdl.io/customize/index.html
+material_theme: red-indigo
+
+# Android AR Map app
+application_name: Tree Walk Guide
+app_source_repo: https://github.com/TreeWalks/tree-walk-guide
+app_issues: https://github.com/TreeWalks/tree-walk-guide/issues/
+play_store_url: https://play.google.com/store/apps/details?id=dev.csaba.arguide.treewalk
+
+# Google Analytics account ID (UA-XXXXXXXX-X)
+google-analytics-ua: UA-86563829-10
+gmaps_yo: "AIzaSyBm7DK2d-zrF1zOOEyDpoMyLiUWwrAROuk"
+main_map:
+  lat: 36.812263
+  lon: -119.746558

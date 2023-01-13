@@ -1,0 +1,33 @@
+<footer class="mdl-mini-footer">
+  <div class="mdl-mini-footer__left-section">
+    <p>
+      {{ site.description }}
+    </p>
+    <ul class="mdl-mini-footer__link-list">
+      <li>
+        <a href="{{ site.baseurl }}/">Home</a>
+      </li>
+      <li>
+        <a href="{{ site.play_store_url }}">
+          <img class="logo-in-menu" src="/assets/images/Google_Play_Store_badge_EN.svg">
+        </a>
+      </li>
+      <li>
+        <a href="{{ site.website_source_repo }}">Contribute!</a>
+      </li>
+      <li>
+        <a href="{{ site.old_tree_walk }}">Old Tree Walk</a>
+      </li>
+      {% for post in site.posts reversed %}
+        {% if post.title %}
+        <li>
+          <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+    <div class="copyright">
+      {{ site.copyright }} | Design:&nbsp;<a href="https://github.com/ssokurenko/jekyll-smart-material">Jekyll&nbsp;Smart&nbsp;Material</a>
+    </div>
+  </div>
+</footer>

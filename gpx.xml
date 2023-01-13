@@ -1,0 +1,28 @@
+---
+layout: null
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1"
+ xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3"
+ xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v1"
+ version="1.1"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensionsv3.xsd http://www.garmin.com/xmlschemas/TrackPointExtension/v1 http://www.garmin.com/xmlschemas/TrackPointExtensionv1.xsd">
+  <metadata>
+    <link href="{{ site.url | absolute_url }}">
+      <text>{{ site.title | xml_escape }}</text>
+    </link>
+    <time>2022-05-21T12:34:43-07:00</time>
+  </metadata>
+  <trk>
+    <name>{{ site.title | xml_escape }}</name>
+    <trkseg>
+      {% for post in site.posts %}
+        <trkpt lat="{{ post.lat }}" lon="{{ post.lon }}">
+          <ele>{{ post.elevation }}</ele>
+          <time>{{ post.date | date_to_xmlschema }}</time>
+        </trkpt>
+      {% endfor %}
+    </trkseg>
+  </trk>
+</gpx>

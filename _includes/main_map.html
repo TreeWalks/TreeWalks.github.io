@@ -1,0 +1,44 @@
+<script type="text/javascript">
+  function initMap() {
+    var walkStops = [
+    {% for post in site.posts %}
+      ["{{post.title}}", {{post.lat}}, {{post.lon}}, "{{post.url}}", "tree"],
+    {% endfor %}
+    ];
+
+    var map = new google.maps.Map(document.getElementById('map'), {
+      center: new google.maps.LatLng({{site.main_map.lat}}, {{site.main_map.lon}}),
+      zoom: 17,
+      disableDefaultUI: false,
+      mapTypeId: google.maps.MapTypeId.ROADMAP
+    });
+
+    var infowindow = new google.maps.InfoWindow();
+
+    var marker, i;
+
+    const svgMarker = {
+      path: "m4.2038 7.1451h0.18719v0.17054h-0.18719zm1.6218-1.375h-3.2004l1.6002-2.3288zm-0.7892-2.2033-1.6586-1e-7 0.82932-0.99947zm-1.03-1.6922 0.18304-0.17033 0.18304 0.17033z",
+      fillColor: "red",
+      fillOpacity: 1.0,
+      rotation: 0,
+      scale: 1,
+      anchor: new google.maps.Point(16, 16),
+    };
+
+    for (i = 0; i < walkStops.length; i++) {  
+      marker = new google.maps.Marker({
+        position: new google.maps.LatLng(walkStops[i][1], walkStops[i][2]),
+        icon: svgMarker,
+        map: map
+      });
+
+      google.maps.event.addListener(marker, 'click', (function(marker, i) {
+        return function() {
+          infowindow.setContent("<a href='" + walkStops[i][3] + "'>" + walkStops[i][0] + "</a>");
+          infowindow.open(map, marker);
+        }
+      })(marker, i));
+    }
+  }
+</script>
