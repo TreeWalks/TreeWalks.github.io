@@ -4,9 +4,7 @@ title: Afghan pine
 alternate_names: Mondel, Elder or Calabrian pine
 date: 2023-01-06 10:00:00
 categories: vrview
-image_url: horsetail_tree.jpg
 is_image_360: false
-default_yaw: 0
 thumbnail: afghan_pine_th.jpg
 lat: 36.813504
 lon: -119.744932
