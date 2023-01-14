@@ -13,7 +13,7 @@ description: Native to the Canary Islands. Drought tolerant.
 stop: 7
 latin_name: Pinus canariensis
 height: 60-80
-width: 25-40
+width: 25
 wiki: https://en.wikipedia.org/wiki/Pinus_canariensis
 extra_url: https://www.csustan.edu/campus-tree-story-map/canary-island-pine-pinus-canariensis
 ---
