@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Peppermint gum
-alternate_names: Nichol's willow-leafed peppermint
+alternate_names: Nichol's willow-leafed peppermint, Willow Peppermint
 date: 2023-01-08 10:00:00
 categories: vrview
 image_url: peppermint_gum.jpg
@@ -15,7 +15,7 @@ stop: 8
 latin_name: Eucalyptus nicholii
 height: 40
 width: 25
-wiki: https://en.wikipedia.org/wiki/Pinus_canariensis
-extra_url: https://www.csustan.edu/campus-tree-story-map/canary-island-pine-pinus-canariensis
+wiki: https://en.wikipedia.org/wiki/Eucalyptus_nicholii
+extra_url: https://www.csustan.edu/campus-tree-story-map/nichols-willowleafed-peppermint-eucalyptus-nicholii
 ---
 Evergreen. Native to Australia. Upright main trunk, rounded crown, spreading branches. Reddish brown bark. Narrow, light green, peppermint-scented leaves. Drought tolerant.
