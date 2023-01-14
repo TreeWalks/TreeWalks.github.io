@@ -20,6 +20,13 @@ layout: default
           {{ site.latin_alternates_title }}: {{ page.latin_alternates }}
         </p>
       {% endif %}
+      {% if page.height or page.weight %}
+        <p class="post-subtitle">
+          {% if page.height %}{{ site.height_title }}: {{ page.height }}'{% endif %}
+          {% if page.height and page.weight %},{% endif %}
+          {% if page.weight %}{{ site.weight_title }}: {{ page.weight }}'{% endif %}
+        </p>
+      {% endif %}
       {% if page.wiki %}
         <p class="post-subtitle">
           <a href="{{ page.wiki }}">Wikipedia URL</a>
