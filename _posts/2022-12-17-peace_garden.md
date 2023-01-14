@@ -9,7 +9,7 @@ default_yaw: 0
 thumbnail: peace_garden_th.jpg
 lat: 36.812602
 lon: -119.749761
-description: Peace Garden features some california native spieces
+description: Peace Garden features some california native / indigenious spieces
 stop: 17
 ---
 Besides the majestic trees and plants adjacent to the library building feel free to check out the memorials too.
