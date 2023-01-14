@@ -6,7 +6,6 @@
       <img src="/assets/images/Google_Play_Store_badge_EN.svg">
     </a>
     <a class="mdl-navigation__link" href="{{ site.website_source_repo }}">{{ site.contribute_title }}</a>
-    <a class="mdl-navigation__link" href="{{ site.old_tree_walk }}">{{ site.old_tree_walk_title }}</a>
     {% for post in site.posts reversed %}
       {% if post.title %}
         <a class="mdl-navigation__link" href="{{ post.url | relative_url }}">{{ post.title }}</a>
