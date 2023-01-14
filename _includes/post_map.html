@@ -4,7 +4,7 @@
       center: new google.maps.LatLng({{page.lat}}, {{page.lon}}),
       zoom: 19,
       disableDefaultUI: false,
-      mapTypeId: google.maps.MapTypeId.HYBRID
+      mapTypeId: google.maps.MapTypeId.ROADMAP
     });
 
     var infowindow = new google.maps.InfoWindow();
@@ -18,16 +18,22 @@
       rotation: 0,
       scale: 1,
       anchor: new google.maps.Point(20, 24),
+      labelOrigin: new google.maps.Point(20, 26),
     };
 
     var marker = new google.maps.Marker({
       position: new google.maps.LatLng({{page.lat}}, {{page.lon}}),
       icon: svgMarker,
+      label: {
+        text: ({{page.stop}}).toString(),
+        color: 'white',
+        fontWeight: '800',
+      },
       map: map,
-    });
+  });
 
     google.maps.event.addListener(marker, 'click', function() {
-      infowindow.setContent("{{page.title}}");
+      infowindow.setContent("{{page.stop}}. {{page.title}}");
       infowindow.open(map, marker);
     });
   }
