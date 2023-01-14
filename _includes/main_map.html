@@ -21,6 +21,12 @@
       });
     }
 
+    // Close the poly line!
+    walkPathPolyLine.push({
+      'lat': walkStops[0][1],
+      'lng': walkStops[0][2],
+    });
+
     // create a new polyline using the coordinates array, and add it to the map
     var walkPath = new google.maps.Polyline({
       path: walkPathPolyLine,
