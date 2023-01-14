@@ -2,7 +2,7 @@
 layout: post
 title: Horsetail tree
 alternate_names: beef wood, she-oak
-date: 2023-01-04 10:00:00
+date: 2022-12-04 10:00:00
 categories: vrview
 image_url: horsetail_tree.jpg
 is_image_360: true

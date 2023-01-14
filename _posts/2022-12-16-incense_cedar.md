@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Incense cedar
-date: 2023-01-16 10:00:00
+date: 2022-12-16 10:00:00
 categories: vrview
 image_url: incense_cedar.jpg
 is_image_360: true

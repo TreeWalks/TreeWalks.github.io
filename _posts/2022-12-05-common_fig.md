@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Common fig
-date: 2023-01-05 10:00:00
+date: 2022-12-05 10:00:00
 categories: vrview
 image_url: common_fig.jpg
 is_image_360: true

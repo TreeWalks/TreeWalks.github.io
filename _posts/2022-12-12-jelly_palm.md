@@ -2,7 +2,7 @@
 layout: post
 title: Jelly palm
 alternate_names: Pindo palm, Butia palm
-date: 2023-01-12 10:00:00
+date: 2022-12-12 10:00:00
 categories: vrview
 image_url: jelly_palm.jpg
 is_image_360: true

@@ -2,7 +2,7 @@
 layout: post
 title: Afghan pine
 alternate_names: Mondel, Elder or Calabrian pine
-date: 2023-01-06 10:00:00
+date: 2022-12-06 10:00:00
 categories: vrview
 is_image_360: false
 thumbnail: afghan_pine_th.jpg
