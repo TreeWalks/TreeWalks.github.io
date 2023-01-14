@@ -33,7 +33,7 @@
 
     var infowindow = new google.maps.InfoWindow();
 
-    var marker, i, label;
+    var marker, i;
 
     const svgMarker = {
       path: "m20.029 0.046155-13.848 16.581h4.9934l-8.2596 9.4286h5.4972l-8.3614 8.9025h14.804v9.6637h10.109v-9.6637h14.682l-8.3614-8.9025h5.6693l-8.259-9.4286h5.183l-13.848-16.581z",
@@ -48,13 +48,11 @@
     };
 
     for (i = 0; i < walkStops.length; i++) {
-      label = (walkStops.length - i).toString();
-
       marker = new google.maps.Marker({
         position: new google.maps.LatLng(walkStops[i][1], walkStops[i][2]),
         icon: svgMarker,
         label: {
-          text: label,
+          text: (walkStops.length - i).toString(),
           color: 'white',
           fontWeight: '800',
         },
@@ -63,7 +61,7 @@
 
       google.maps.event.addListener(marker, 'click', (function(marker, i) {
         return function() {
-          infowindow.setContent("<a href='" + walkStops[i][3] + "'>" + label + ". " + walkStops[i][0] + "</a>");
+          infowindow.setContent("<a href='" + walkStops[i][3] + "'>" + (walkStops.length - i).toString() + ". " + walkStops[i][0] + "</a>");
           infowindow.open(map, marker);
         }
       })(marker, i));
