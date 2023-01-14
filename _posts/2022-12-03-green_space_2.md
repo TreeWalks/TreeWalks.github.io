@@ -11,5 +11,6 @@ lat: 36.81372
 lon: -119.74651
 description: A green space at the heart of Agricultural Sciences
 stop: 3
+stop_type: garden
 ---
 This is another cool green space with interesting plants and trees sourrounded by the Agricultural Sciences Building. The building has also several plated planted specimen around it.

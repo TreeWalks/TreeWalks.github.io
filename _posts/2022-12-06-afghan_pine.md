@@ -15,5 +15,6 @@ height: 30-80
 width: 25-40
 wiki: https://en.wikipedia.org/wiki/Pinus_brutia
 extra_url: https://www.dirtdoctor.com/garden/Afghan-Pine_vq2608.htm
+stop_type: tree
 ---
 Evergreen. Native from southern Russia to Pakistan. Conical to mounded growth habit. Dark green needles, 5"-6" long, in bundles of two. Drought tolerant.

@@ -11,5 +11,6 @@ lat: 36.813088
 lon: -119.748385
 description: A perfect green space to start and end the walk
 stop: 1
+stop_type: garden
 ---
 This green space has several interesting trees and plants around. We selected this space because there's seating available and there are rest rooms close by as well, so it's ideal to take a break after or before the walk.

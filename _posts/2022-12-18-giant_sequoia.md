@@ -16,5 +16,6 @@ height: 300
 width: 100
 wiki: https://en.wikipedia.org/wiki/Sequoiadendron_giganteum
 extra_url: https://www.csustan.edu/campus-tree-story-map/giant-sequoia-sequoiadendron-giganteum
+stop_type: tree
 ---
 Evergreen. Native to the Sierra Nevada of California. Conical growth habit when young, becoming columnar. Bark is reddish brown, fire-resistant. Dense, gray-green, scalelike foliage. This specimen was planted in 1990. Just south of this tree on the other side of the walkway there's a Coast Redwood (which is California native) and then another Giant Sequoia which is also very young but bigger than the walk's tree.

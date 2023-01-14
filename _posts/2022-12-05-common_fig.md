@@ -15,5 +15,6 @@ latin_name: Ficus carica
 height: 15-30
 wiki: https://en.wikipedia.org/wiki/Fig
 extra_url: https://plants.ces.ncsu.edu/plants/ficus-carica/
+stop_type: trees
 ---
 Deciduous. Native to the eastern Mediterranean region. Large shrub or small tree. Trunk and branches become gnarled with age. Large, rounded leaves have 3 or 5 deep lobes. Edible fruit is ripe in summer. Drought tolerant when established.

@@ -17,5 +17,6 @@ height: 40
 width: 30
 wiki: https://en.wikipedia.org/wiki/Pyrus_calleryana
 extra_url: https://invasive-species.fandom.com/wiki/Callery_Pear
+stop_type: tree
 ---
 Deciduous. Species is native to China and Korea. Cultivar was selected by W.T. Shaw, Independence, Kentucky. Broadly conical growth habit. Oval, dark green leaves have wavy margins. Red fall color. White flowers in umbel-like racemes, present in March. Drought tolerant when established.

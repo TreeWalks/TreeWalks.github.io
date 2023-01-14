@@ -16,5 +16,6 @@ latin_alternates: Libocedrus decurrens
 height: 100
 wiki: https://en.wikipedia.org/wiki/Calocedrus_decurrens
 extra_url: https://www.csustan.edu/campus-tree-story-map/incense-cedar-calocedrus-decurrens
+stop_type: tree
 ---
 The beautiful garden next to the fountain and the University Restaurant features numerous trees and plants. One of them is the incense cedar: Evergreen. Native to Western North America (Oregon to Baja California). Columnar growth habit with conical crown Cinnamon-brown trunk. Dark green foliage is aromatic when crushed. Drought tolerant.

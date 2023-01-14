@@ -17,5 +17,6 @@ height: 40
 width: 25
 wiki: https://en.wikipedia.org/wiki/Eucalyptus_nicholii
 extra_url: https://www.csustan.edu/campus-tree-story-map/nichols-willowleafed-peppermint-eucalyptus-nicholii
+stop_type: tree
 ---
 Evergreen. Native to Australia. Upright main trunk, rounded crown, spreading branches. Reddish brown bark. Narrow, light green, peppermint-scented leaves. Drought tolerant.

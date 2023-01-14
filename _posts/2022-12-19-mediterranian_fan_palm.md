@@ -17,5 +17,6 @@ height: 20
 width: 20
 wiki: https://en.wikipedia.org/wiki/Chamaerops
 extra_url: https://www.public.asu.edu/~camartin/plants/Plant%20html%20files/chamaeropshumilis.html
+stop_type: trees
 ---
 Evergreen. Native to the Mediterranean region. The only palm native to Europe. Plant develops a clumping form from basal off-shoots. Light green, fan-shaped leaves. Drought tolerant. There are multiple groups of them along the East wall of the South Gym.

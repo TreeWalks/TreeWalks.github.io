@@ -17,5 +17,6 @@ height: 70
 width: 20
 wiki: https://en.wikipedia.org/wiki/Casuarina_equisetifolia
 extra_url: https://wiki.bugwood.org/Casuarina_equisetifolia
+stop_type: trees
 ---
 Native to eastern Australia and Pacific islands. Long, thin, green branchlets resemble pine needles. True leaves are inconspicuous and scalelike. Fruit is a small, woody cone. Drought​ ​tolerant.

@@ -17,5 +17,6 @@ latin_alternates: Washingtonia filamentosa
 height: 100
 wiki: https://en.wikipedia.org/wiki/Washingtonia_robusta
 extra_url: https://www.cal-ipc.org/plants/profile/washingtonia-robusta-profile/
+stop_type: tree
 ---
 Evergreen. Native to northern Mexico. Slender, tapering trunk. Fan-shaped, deeply lobed leaves. Light pink flowers in long inflorescences produce copious quantities of seeds. Drought tolerant.

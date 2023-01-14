@@ -16,5 +16,6 @@ height: 60
 width: 8
 wiki: https://en.wikipedia.org/wiki/Cupressus_sempervirens
 extra_url: https://www.csustan.edu/campus-tree-story-map/italian-cypress-cupressus-sempervirens
+stop_type: trees
 ---
 Evergreen. Native to the eastern Mediterranean region and western Asia. Upright, narrowly columnar growth habit. Dark green foliage. Drought tolerant.

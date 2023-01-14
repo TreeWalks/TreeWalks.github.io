@@ -16,5 +16,6 @@ height: 60-80
 width: 25
 wiki: https://en.wikipedia.org/wiki/Pinus_canariensis
 extra_url: https://www.csustan.edu/campus-tree-story-map/canary-island-pine-pinus-canariensis
+stop_type: trees
 ---
 Evergreen. Native to the Canary Islands. Upright, conical growth habit. Drooping branchlets of deep green needles, 9"-12" long, in bundles of three. Drought tolerant.

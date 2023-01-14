@@ -16,5 +16,6 @@ latin_name: Butia capitata
 height: 20
 wiki: https://en.wikipedia.org/wiki/Butia_capitata
 extra_url: https://plants.ces.ncsu.edu/plants/butia-capitata/
+stop_type: tree
 ---
 Evergreen. Native to South America. Thick-trunked. Arching, feathery, gray-green fronds curve downward toward the trunk. Long panicles of yellow flowers.  Orange, edible fruit. Drought tolerant.
