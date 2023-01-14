@@ -55,7 +55,7 @@
 
       google.maps.event.addListener(marker, 'click', (function(marker, i) {
         return function() {
-          infowindow.setContent("<a href='" + walkStops[i][3] + "'>" + walkStops[i][0] + "</a>");
+          infowindow.setContent("<a href='" + (i + 1).toString() + ". " + walkStops[i][3] + "'>" + walkStops[i][0] + "</a>");
           infowindow.open(map, marker);
         }
       })(marker, i));
