@@ -3,9 +3,9 @@ layout: null
 ---
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string-array name="csu_fresno">
+  <string-array name="tree_walk">
     {% for post in site.posts %}
-      <item>{{ post.lat }},{{ post.lon }},{{ post.title }},{{ post.url | absolute_url }},tree</item>
+      <item>{{ post.lat }}|{{ post.lon }}|{{ post.stop_type }}|{{ post.title }}|{{ post.description }}|{{ post.height }}|{{ post.width }}|{{ post.content }}|{{ post.url | absolute_url }}</item>
     {% endfor %}
   </string-array>
 </resources>
