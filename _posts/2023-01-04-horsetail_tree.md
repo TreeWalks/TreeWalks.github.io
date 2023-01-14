@@ -13,7 +13,6 @@ lon: -119.74623
 description: Long, thin, green branchlets resemble pine needles
 stop: 4
 latin_name: Casuarina equisetifolia
-latin_alternates: Washingtonia filamentosa
 height: 70
 width: 20
 wiki: https://en.wikipedia.org/wiki/Casuarina_equisetifolia
