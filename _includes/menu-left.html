@@ -8,7 +8,7 @@
     <a class="mdl-navigation__link" href="{{ site.website_source_repo }}">{{ site.contribute_title }}</a>
     {% for post in site.posts reversed %}
       {% if post.title %}
-        <a class="mdl-navigation__link" href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        <a class="mdl-navigation__link" href="{{ post.url | relative_url }}">{{ post.stop }}. {{ post.title }}</a>
       {% endif %}
     {% endfor %}
   </nav>

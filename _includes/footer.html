@@ -18,7 +18,7 @@
       {% for post in site.posts reversed %}
         {% if post.title %}
         <li>
-          <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+          <a href="{{ post.url | relative_url }}">{{ post.stop }}. {{ post.title }}</a>
         </li>
         {% endif %}
       {% endfor %}
