@@ -50,6 +50,11 @@
       marker = new google.maps.Marker({
         position: new google.maps.LatLng(walkStops[i][1], walkStops[i][2]),
         icon: svgMarker,
+        label: {
+          text: (i + 1).toString(),
+          color: 'white',
+          fontWeight: 800,
+        },
         map: map
       });
 
