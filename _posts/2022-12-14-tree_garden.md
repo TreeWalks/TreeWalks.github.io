@@ -2,16 +2,8 @@
 layout: post
 title: Tree garden
 date: 2022-12-14 10:00:00
-categories: vrview
-image_url: tree_garden.jpg
-is_image_360: true
-default_yaw: 0
-thumbnail: tree_garden_th.jpg
-lat: 36.810482
-lon: -119.746007
 description: Garden of mostly drought resistant and / or California native trees.
-stop: 14
-stop_type: garden
+stop: 13
 ---
 This lovely tree garden South of Concert Hall contains numerous drought tolerant and / or California native trees, such as:
 * [Sapium sebiferum](https://en.wikipedia.org/wiki/Triadica_sebifera), [Chinese tallow tree, popcorn tree](https://www.csustan.edu/campus-tree-story-map/chinese-tallow-triadica-sebifera). Height: 35', Width: 35', Deciduous. Native to China. Effect of foliage is open rather than dense. Poplar-like leaves turn red-orange in fall. Spikes of tiny, yellow flowers in spring. Brown fruit capsules open to reveal white, waxy seeds that persist on the tree in winter. Deeply rooted. Drought tolerant.

@@ -1,8 +1,9 @@
 <script type="text/javascript">
   function initMap() {
     var walkStops = [
-    {% for post in site.posts %}
-      ["{{post.title}}", {{post.lat}}, {{post.lon}}, "{{post.url}}", "tree"],
+    {% for post in site.posts reversed %}
+      {% assign stop = site.data.stops[forloop.index0] %}
+      ["{{ post.title }}", {{ stop.lat }}, {{ stop.lon }}, "{{ post.url }}", "{{ stop.kind }}"],
     {% endfor %}
     ];
 
@@ -59,16 +60,16 @@
         position: new google.maps.LatLng(walkStops[i][1], walkStops[i][2]),
         icon: svgMarker,
         label: {
-          text: (walkStops.length - i).toString(),
+          text: (i + 1).toString(),
           color: 'white',
           fontWeight: '800',
         },
         map: map
       });
 
-      google.maps.event.addListener(marker, 'click', (function(marker, i) {
+      google.maps.event.addListener(marker, 'click', (function(marker, ii) {
         return function() {
-          infowindow.setContent("<a href='" + walkStops[i][3] + "'>" + (walkStops.length - i).toString() + ". " + walkStops[i][0] + "</a>");
+          infowindow.setContent("<a href='" + walkStops[ii][3] + "'>" + (ii + 1).toString() + ". " + walkStops[ii][0] + "</a>");
           infowindow.open(map, marker);
         }
       })(marker, i));

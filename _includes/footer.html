@@ -1,8 +1,5 @@
 <footer class="mdl-mini-footer">
   <div class="mdl-mini-footer__left-section">
-    <p>
-      {{ site.description }}
-    </p>
     <ul class="mdl-mini-footer__link-list">
       <li>
         <a href="{{ site.baseurl }}/">{{ site.home_title }}</a>
@@ -18,7 +15,7 @@
       {% for post in site.posts reversed %}
         {% if post.title %}
         <li>
-          <a href="{{ post.url | relative_url }}">{{ post.stop }}. {{ post.title }}</a>
+          <a href="{{ post.url | relative_url }}">{{ forloop.index }}. {{ post.title }}</a>
         </li>
         {% endif %}
       {% endfor %}

@@ -2,39 +2,41 @@
 layout: default
 ---
 <div class="post mdl-shadow--2dp">
+  {% assign stop = site.data.stops[page.stop] %}
   <header class="post-header">
-    <h1 class="post-title">{{ page.stop }}. {{ page.title }}</h1>
+    {% assign one_based_index = page.stop | plus: 1 %}
+    <h1 class="post-title">{{ one_based_index }}. {{ page.title }}</h1>
     <div class="post-subtitle">
       {% if page.alternate_names %}
         <p class="post-subtitle">
           {{ site.alternate_names_title }}: {{ page.alternate_names }}
         </p>
       {% endif %}
-      {% if page.latin_name %}
+      {% if stop.latin_name %}
         <p class="post-subtitle">
-          {{ site.latin_name_title }}: {{ page.latin_name }}
+          {{ site.latin_name_title }}: {{ stop.latin_name }}
         </p>
       {% endif %}
-      {% if page.latin_alternates %}
+      {% if stop.latin_alternates %}
         <p class="post-subtitle">
-          {{ site.latin_alternates_title }}: {{ page.latin_alternates }}
+          {{ site.latin_alternates_title }}: {{ stop.latin_alternates }}
         </p>
       {% endif %}
-      {% if page.height or page.width %}
+      {% if stop.height or stop.width %}
         <p class="post-subtitle">
-          {% if page.height %}{{ site.height_title }}: {{ page.height }}'{% endif %}
-          {% if page.height and page.width %},{% endif %}
-          {% if page.width %}{{ site.width_title }}: {{ page.width }}'{% endif %}
+          {% if stop.height %}{{ site.height_title }}: {{ stop.height }}'{% endif %}
+          {% if stop.height and stop.width %},{% endif %}
+          {% if stop.width %}{{ site.width_title }}: {{ stop.width }}'{% endif %}
         </p>
       {% endif %}
-      {% if page.wiki %}
+      {% if stop.wiki %}
         <p class="post-subtitle">
-          <a href="{{ page.wiki }}">Wikipedia URL</a>
+          <a href="{{ stop.wiki }}">Wikipedia URL</a>
         </p>
       {% endif %}
-      {% if page.extra_url %}
+      {% if stop.extra_url %}
         <p class="post-subtitle">
-          <a href="{{ page.extra_url }}">{{ site.extra_url_title }}</a>
+          <a href="{{ stop.extra_url }}">{{ site.extra_url_title }}</a>
         </p>
       {% endif %}
     </div>
@@ -43,21 +45,21 @@ layout: default
     <div style="text-align:justified">
       {{ page.content }}
     </div>
-    {% if page.image_url %}
+    {% if stop.image_url %}
       <hr>
-      {% if page.is_image_360 %}
+      {% if stop.is_image_360 %}
       <div style="text-align:justified">
-        <i class="fa fa-camera"></i> On mobile devices click on the cardboard icon to use a VR headset to look around
+        <i class="fa fa-camera"></i> {{ site.vr_camera_instructions }}
       </div>
       {% endif %}
       <div style="text-align:center">
-        {% if page.is_image_360 %}
+        {% if stop.is_image_360 %}
         <iframe
           frameborder="0"
           width="100%"
           scrolling="no"
           allowfullscreen
-          src="{{ site.baseurl }}/assets/vrview/index.html?image={{ site.baseurl }}/assets/images/{{ page.image_url }}&is_stereo=false{% if page.default_yaw %}&default_yaw={{ page.default_yaw }}{% endif %}">
+          src="{{ site.baseurl }}/assets/vrview/index.html?image={{ site.baseurl }}/assets/images/{{ stop.image_url }}&is_stereo=false{% if stop.default_yaw %}&default_yaw={{ stop.default_yaw }}{% endif %}">
         </iframe>
         {% else %}
         <img
@@ -65,16 +67,15 @@ layout: default
           width="100%"
           scrolling="no"
           allowfullscreen
-          src="{{ site.baseurl }}/assets/images/{{ page.image_url }}">
+          src="{{ site.baseurl }}/assets/images/{{ stop.image_url }}">
         </img>
         {% endif %}
       </div>
     {% endif %}
-    {% if page.youtube_id %}
+    {% if stop.youtube_id %}
       <hr>
       <div style="text-align:justified">
-        <i class="fa fa-video-camera"></i> Look around with directional swipe gestures on touch screens,
-        or use the top-left Google Street View like controls of the YouTube video. Use cardboard or VR headsets if available for more immersive experience.
+        <i class="fa fa-video-camera"></i> {{ site.vr_video_instructions }}
       </div>
       <div style="text-align:center">
         <iframe
@@ -82,7 +83,7 @@ layout: default
           width="100%"
           scrolling="no"
           allowfullscreen
-          src="https://www.youtube.com/embed/{{ page.youtube_id }}">
+          src="https://www.youtube.com/embed/{{ stop.youtube_id }}">
         </iframe>
       </div>
     {% endif %}

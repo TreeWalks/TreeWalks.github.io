@@ -2,18 +2,8 @@
 layout: post
 title: Allergy-free garden
 date: 2022-12-11 10:00:00
-categories: vrview
-image_url: allergy_free_garden.jpg
-is_image_360: true
-default_yaw: 0
-thumbnail: allergy_free_garden_th.jpg
-lat: 36.810519
-lon: -119.742578
 description: Allergy-Free Deminstration Garden by The Arboretum at CSU Fresno
-stop: 11
-wiki: https://adminfinance.fresnostate.edu/arboretum/garcol/allgeryfree.html
-extra_url: https://fresnostatefocus.com/2019/05/07/allergies-no-more/
-stop_type: garden
+stop: 10
 ---
 This large area demonstration garden coontains several areas and many placated spieces such as:
 * [Larustinus Viburnum tinus](https://en.wikipedia.org/wiki/Viburnum_tinus)

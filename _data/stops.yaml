@@ -1,0 +1,309 @@
+- title: Green Space 1
+  kind: garden
+  categories: vrview
+  is_image_360: true
+  default_yaw: 0
+  image_url: green_space_1.jpg
+  thumbnail: green_space_1_th.jpg
+  lat: 36.813088
+  lon: -119.748385
+- title: Thread palm
+  kind: tree
+  categories: vrview
+  is_image_360: true
+  default_yaw: 0
+  image_url: thread_palm.jpg
+  thumbnail: thread_palm_th.jpg
+  lat: 36.81323
+  lon: -119.74726
+  latin_name: Washingtonia robusta
+  latin_alternates: Washingtonia filamentosa
+  height: 100
+  wiki: https://en.wikipedia.org/wiki/Washingtonia_robusta
+  extra_url: https://www.cal-ipc.org/plants/profile/washingtonia-robusta-profile/
+- title: Green Space 2
+  kind: garden
+  categories: vrview
+  is_image_360: true
+  default_yaw: 0
+  image_url: green_space_2.jpg
+  thumbnail: green_space_2_th.jpg
+  lat: 36.81372
+  lon: -119.74651
+- title: Horsetail tree
+  kind: trees
+  categories: vrview
+  is_image_360: true
+  default_yaw: 0
+  image_url: horsetail_tree.jpg
+  thumbnail: horsetail_tree_th.jpg
+  lat: 36.81347
+  lon: -119.74623
+  height: 70
+  width: 20
+  latin_name: Casuarina equisetifolia
+  wiki: https://en.wikipedia.org/wiki/Casuarina_equisetifolia
+  extra_url: https://wiki.bugwood.org/Casuarina_equisetifolia
+- title: Common fig
+  kind: trees
+  categories: vrview
+  is_image_360: true
+  default_yaw: 0
+  image_url: common_fig.jpg
+  thumbnail: common_fig_th.jpg
+  lat: 36.812832
+  lon: -119.746130
+  latin_name: Ficus carica
+  height: 15-30
+  wiki: https://en.wikipedia.org/wiki/Fig
+  extra_url: https://plants.ces.ncsu.edu/plants/ficus-carica/
+- title: Afghan pine
+  kind: tree
+  categories: vrview
+  is_image_360: false
+  default_yaw: 0
+  thumbnail: afghan_pine_th.jpg
+  lat: 36.813504
+  lon: -119.744932
+  latin_name: Pinus eldarica
+  height: 30-80
+  width: 25-40
+  wiki: https://en.wikipedia.org/wiki/Pinus_brutia
+  extra_url: https://www.dirtdoctor.com/garden/Afghan-Pine_vq2608.htm
+- title: Canary Island pine
+  kind: trees
+  categories: vrview
+  is_image_360: true
+  default_yaw: 0
+  image_url: canary_island_pine.jpg
+  thumbnail: canary_island_pine_th.jpg
+  lat: 36.81339
+  lon: -119.74444
+  latin_name: Pinus canariensis
+  height: 60-80
+  width: 25
+  wiki: https://en.wikipedia.org/wiki/Pinus_canariensis
+  extra_url: https://www.csustan.edu/campus-tree-story-map/canary-island-pine-pinus-canariensis
+- title: Peppermint gum
+  kind: tree
+  categories: vrview
+  is_image_360: true
+  default_yaw: 0
+  image_url: peppermint_gum.jpg
+  thumbnail: peppermint_gum_th.jpg
+  lat: 36.813271
+  lon: -119.743959
+  latin_name: Eucalyptus nicholii
+  height: 40
+  width: 25
+  wiki: https://en.wikipedia.org/wiki/Eucalyptus_nicholii
+  extra_url: https://www.csustan.edu/campus-tree-story-map/nichols-willowleafed-peppermint-eucalyptus-nicholii
+- title: Aristocrat pear
+  kind: tree
+  categories: vrview
+  is_image_360: true
+  default_yaw: 0
+  image_url: aristocrat_pear.jpg
+  thumbnail: aristocrat_pear_th.jpg
+  lat: 36.81257
+  lon: -119.74257
+  latin_name: Pyrus calleryana
+  height: 40
+  width: 30
+  wiki: https://en.wikipedia.org/wiki/Pyrus_calleryana
+  extra_url: https://invasive-species.fandom.com/wiki/Callery_Pear
+- title: Cork oak
+  kind: tree
+  categories: vrview
+  is_image_360: true
+  default_yaw: 0
+  image_url: cork_oak.jpg
+  thumbnail: cork_oak_th.jpg
+  lat: 36.812321
+  lon: -119.742693
+  latin_name: Quercus suber
+  height: 70-100
+  width: 70
+  wiki: https://en.wikipedia.org/wiki/Quercus_suber
+  extra_url: https://www.csustan.edu/campus-tree-story-map/cork-oak-quercus-suber
+- title: Allergy-free garden
+  kind: garden
+  categories: vrview
+  is_image_360: true
+  default_yaw: 0
+  image_url: allergy_free_garden.jpg
+  thumbnail: allergy_free_garden_th.jpg
+  lat: 36.810519
+  lon: -119.742578
+  wiki: https://adminfinance.fresnostate.edu/arboretum/garcol/allgeryfree.html
+  extra_url: https://fresnostatefocus.com/2019/05/07/allergies-no-more/
+- title: Jelly palm
+  kind: tree
+  categories: vrview
+  is_image_360: true
+  default_yaw: 0
+  image_url: jelly_palm.jpg
+  thumbnail: jelly_palm_th.jpg
+  lat: 36.811554
+  lon: -119.746138
+  latin_name: Butia capitata
+  height: 20
+  wiki: https://en.wikipedia.org/wiki/Butia_capitata
+  extra_url: https://plants.ces.ncsu.edu/plants/butia-capitata/
+- title: Hemp tree
+  kind: tree
+  categories: vrview
+  is_image_360: true
+  default_yaw: 0
+  image_url: hemp_tree.jpg
+  thumbnail: hemp_tree_th.jpg
+  lat: 36.811013
+  lon: -119.746041
+  latin_name: Vitex agnus-castus
+  height: 8-25
+  wiki: https://en.wikipedia.org/wiki/Vitex_agnus-castus
+  extra_url: https://selectree.calpoly.edu/tree-detail/1464
+- title: Tree garden
+  kind: garden
+  categories: vrview
+  is_image_360: true
+  default_yaw: 0
+  image_url: tree_garden.jpg
+  thumbnail: tree_garden_th.jpg
+  lat: 36.810482
+  lon: -119.746007
+- title: Italian cypress
+  kind: trees
+  categories: vrview
+  is_image_360: true
+  default_yaw: 0
+  image_url: italian_cypress.jpg
+  thumbnail: italian_cypress_th.jpg
+  lat: 36.811680
+  lon: -119.748226
+  latin_name: Cupressus sempervirens 'Stricta'
+  height: 60
+  width: 8
+  wiki: https://en.wikipedia.org/wiki/Cupressus_sempervirens
+  extra_url: https://www.csustan.edu/campus-tree-story-map/italian-cypress-cupressus-sempervirens
+- title: Incense cedar
+  kind: tree
+  categories: vrview
+  is_image_360: true
+  default_yaw: 0
+  image_url: incense_cedar.jpg
+  thumbnail: incense_cedar_th.jpg
+  lat: 36.812023
+  lon: -119.747888
+  latin_name: Calocedrus decurrens
+  latin_alternates: Libocedrus decurrens
+  height: 100
+  wiki: https://en.wikipedia.org/wiki/Calocedrus_decurrens
+  extra_url: https://www.csustan.edu/campus-tree-story-map/incense-cedar-calocedrus-decurrens
+- title: Peace garden
+  kind: garden
+  categories: vrview
+  is_image_360: true
+  default_yaw: 0
+  image_url: peace_garden.jpg
+  thumbnail: peace_garden_th.jpg
+  lat: 36.812602
+  lon: -119.749761
+- title: Giant Sequoia
+  kind: tree
+  categories: vrview
+  is_image_360: true
+  default_yaw: 0
+  image_url: giant_sequoia.jpg
+  thumbnail: giant_sequoia_th.jpg
+  lat: 36.812161
+  lon: -119.750574
+  latin_name: Sequoiadendron giganteum
+  height: 300
+  width: 100
+  wiki: https://en.wikipedia.org/wiki/Sequoiadendron_giganteum
+  extra_url: https://www.csustan.edu/campus-tree-story-map/giant-sequoia-sequoiadendron-giganteum
+- title: Mediterranian Fan Palm
+  kind: trees
+  categories: vrview
+  is_image_360: true
+  default_yaw: 0
+  image_url: mediterranian_fan_palm.jpg
+  thumbnail: mediterranian_fan_palm_th.jpg
+  lat: 36.812234
+  lon: -119.750993
+  latin_name: Chamaerops humilis
+  height: 20
+  width: 20
+  wiki: https://en.wikipedia.org/wiki/Chamaerops
+  extra_url: https://www.public.asu.edu/~camartin/plants/Plant%20html%20files/chamaeropshumilis.html
+- title: Fruitless Olive
+  kind: trees
+  categories: vrview
+  is_image_360: true
+  default_yaw: 0
+  image_url: fruitless_olive.jpg
+  thumbnail: fruitless_olive_th.jpg
+  lat: 36.813535
+  lon: -119.750799
+  latin_name: Olea europaea
+  height: 30
+  width: 30
+  wiki: https://en.wikipedia.org/wiki/Olive
+  extra_url: https://www.csustan.edu/campus-tree-story-map/olive-tree-olea-europaea
+- title: California Black Oak
+  kind: trees
+  categories: vrview
+  is_image_360: true
+  default_yaw: 0
+  image_url: california_black_oak.jpg
+  thumbnail: california_black_oak_th.jpg
+  lat: 36.814492
+  lon: -119.750421
+  latin_name: Quercus kelloggii
+  height: 30-80
+  width: 30
+  wiki: https://en.wikipedia.org/wiki/Quercus_kelloggii
+  extra_url: https://www.csustan.edu/campus-tree-story-map/california-black-oak-quercus-kelloggii
+- title: California Redbud
+  kind: tree
+  categories: vrview
+  is_image_360: true
+  default_yaw: 0
+  image_url: california_redbud.jpg
+  thumbnail: california_redbud_th.jpg
+  lat: 36.814224
+  lon: -119.750265
+  latin_name: Cercis occidentalis
+  height: 20
+  width: 20
+  wiki: https://en.wikipedia.org/wiki/Cercis_occidentalis
+  extra_url: https://www.csustan.edu/campus-tree-story-map/western-redbud-cercis-occidentalis
+- title: Aleppo pine
+  kind: tree
+  categories: vrview
+  is_image_360: true
+  default_yaw: 0
+  image_url: aleppo_pine.jpg
+  thumbnail: aleppo_pine_th.jpg
+  lat: 36.814215
+  lon: -119.750265
+  latin_name: Pinus halepensis
+  height: 30-60
+  width: 20-30
+  wiki: https://en.wikipedia.org/wiki/Pinus_halepensis
+  extra_url: https://www.csustan.edu/campus-tree-story-map/aleppo-pine-pinus-halepensis
+- title: White alder
+  kind: tree
+  categories: vrview
+  is_image_360: true
+  default_yaw: 0
+  image_url: white_alder.jpg
+  thumbnail: white_alder_th.jpg
+  lat: 36.813851
+  lon: -119.748992
+  latin_name: Alnus rhombifolia
+  height: 50-90
+  width: 40
+  wiki: https://en.wikipedia.org/wiki/Alnus_rhombifolia
+  extra_url: https://www.csustan.edu/campus-tree-story-map/white-alder-alnus-rhombifolia

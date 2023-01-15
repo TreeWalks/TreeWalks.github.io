@@ -5,7 +5,8 @@ layout: null
 <resources>
   <string-array name="tree_walk">
     {% for post in site.posts %}
-      <item>{{ post.lat }}|{{ post.lon }}|{{ post.stop_type }}|{{ post.title }}|{{ post.description }}|{{ post.height }}|{{ post.width }}|{{ post.content }}|{{ post.url | absolute_url }}</item>
+      {% assign stop = site.data.stops[forloop.index0] %}
+      <item>{{ stop.lat }}|{{ stop.lon }}|{{ stop.kind }}|{{ post.title }}|{{ post.description }}|{{ stop.height }}|{{ stop.width }}|{{ post.content }}|{{ post.url | absolute_url }}</item>
     {% endfor %}
   </string-array>
 </resources>
