@@ -1,5 +1,6 @@
 ---
 layout: post
+lang: en
 title: Canary Island pine
 date: 2022-12-07 10:00:00
 stop: 6

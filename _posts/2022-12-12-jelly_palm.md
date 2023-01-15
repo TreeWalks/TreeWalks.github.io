@@ -1,5 +1,6 @@
 ---
 layout: post
+lang: en
 title: Jelly palm
 alternate_names: Pindo palm, Butia palm
 date: 2022-12-12 10:00:00

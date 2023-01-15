@@ -1,5 +1,6 @@
 ---
 layout: post
+lang: en
 title: Horsetail tree
 alternate_names: beef wood, she-oak
 date: 2022-12-04 10:00:00

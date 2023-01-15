@@ -1,5 +1,6 @@
 ---
 layout: post
+lang: en
 title: Peppermint gum
 alternate_names: Nichol's willow-leafed peppermint, Willow Peppermint
 date: 2022-12-08 10:00:00

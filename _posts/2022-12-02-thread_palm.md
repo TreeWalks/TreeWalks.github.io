@@ -1,5 +1,6 @@
 ---
 layout: post
+lang: en
 title: Thread palm
 alternate_names: Mexican fan palm, Washington palm, skyduster
 date: 2022-12-02 10:00:00

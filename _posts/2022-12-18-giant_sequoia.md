@@ -1,5 +1,6 @@
 ---
 layout: post
+lang: en
 title: Giant Sequoia
 date: 2022-12-18 10:00:00
 description: Evergreen. Native to the Sierra Nevada of California.

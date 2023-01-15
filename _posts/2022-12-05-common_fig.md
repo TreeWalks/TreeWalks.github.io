@@ -1,5 +1,6 @@
 ---
 layout: post
+lang: en
 title: Common fig
 date: 2022-12-05 10:00:00
 stop: 4

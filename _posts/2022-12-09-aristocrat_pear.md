@@ -1,5 +1,6 @@
 ---
 layout: post
+lang: en
 title: Aristocrat pear
 alternate_names: Aristocrat Callery Pear
 date: 2022-12-09 10:00:00
