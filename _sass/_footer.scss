@@ -1,5 +1,7 @@
 footer {
   .mdl-mini-footer__link-list {
+    flex-flow: row wrap;
+
     & a {
       cursor: pointer;
       transition: color .2s ease-in;
