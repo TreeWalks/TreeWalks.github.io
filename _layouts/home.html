@@ -1,6 +1,12 @@
 ---
 layout: default
 ---
+{% if page.lang %}
+  {% assign navlang = page.lang %}
+{% else %}
+  {% assign navlang = site.locale %}
+{% endif %}
+
 <article class="post-content">
   <div style="text-align:center">
     <p>

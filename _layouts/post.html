@@ -1,6 +1,12 @@
 ---
 layout: default
 ---
+{% if page.lang %}
+  {% assign navlang = page.lang %}
+{% else %}
+  {% assign navlang = site.locale %}
+{% endif %}
+
 <div class="post mdl-shadow--2dp">
   {% assign stop = site.data.stops[page.stop] %}
   <header class="post-header">
