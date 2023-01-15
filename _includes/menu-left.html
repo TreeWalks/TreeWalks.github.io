@@ -2,11 +2,15 @@
   <span class="mdl-layout-title">{{ site.data.messages.locales[navlang].short_title }}</span>
   <nav class="mdl-navigation">
     <a class="mdl-navigation__link" href="{{ site.baseurl }}/">{{ site.data.messages.locales[navlang].home_title }}</a>
-    {% assign lang_ref_pages=site.pages | where:"ref", page.ref %}
     {% assign lang_ref_posts=site.posts | where:"ref", page.ref %}
-    {% assign lang_ref_pages = lang_ref_pages | concat: lang_ref_posts | sort: 'lang' %}
+    {% if page.stop %}
+      {% assign lang_ref_pages = lang_ref_posts | where:"stop", page.stop %}
+    {% else %}
+      {% assign lang_ref_pages = site.pages | where:"ref", page.ref %}
+      {% assign lang_ref_pages = lang_ref_pages | concat: lang_ref_posts %}
+    {% endif %}
     {% for link in site.data.navigation.locales[navlang].languages %}
-      {% assign ref_page=lang_ref_pages | where:"lang", link.lang | first %}
+      {% assign ref_page = lang_ref_pages | sort: 'lang' | where:"lang", link.lang | first %}
       {% if ref_page %}
         <a class="mdl-navigation__link" href="{{ ref_page.url }}">{{ link.title }}</a>
       {% else %}
