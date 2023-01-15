@@ -5,7 +5,13 @@
   <meta name="google-site-verification" content="5EjeWakXlV47V9wA-E-k22-XwtP1EGjXmTgAhIa6HUM" />
   <link rel="icon" href="{{ '/favicon.png' | relative_url }}">
 
-  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+  {% if page.lang %}
+    {% assign navlang = page.lang %}
+  {% else %}
+    {% assign navlang = site.locale %}
+  {% endif %}
+
+  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.data.messages.locales[navlang].title }}{% endif %}</title>
   <meta name="description"
         content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
@@ -15,4 +21,5 @@
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' | absolute_url }}" />
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" crossorigin="anonymous">
+  <!-- NL: {{ navlang }} -->
 </head>

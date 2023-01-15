@@ -1,0 +1,96 @@
+locales:
+  # English translation
+  # -------------------
+  en: &DEFAULT_EN
+    title: CSU Fresno Tree Walk Guide
+    short_title: Tree Walk
+    description: Redesigned tree walk of indigenous, native, and / or drought tolerant specimen around campus.
+    home_title: Home
+    contribute_title: Contribute!
+    old_tree_walk_title: Old Tree Walk
+    design_title: Design
+    alternate_names_title: Alternate names
+    latin_name_title: Latin name
+    latin_alternates_title: Latin alternate name
+    wikipedia_url_title: Wikipedia URL
+    extra_url_title: Extra URL
+    height_title: Height
+    width_title: Width
+    vr_camera_instructions: On mobile devices click on the cardboard icon to use a VR headset to look around
+    vr_video_instructions: Look around with directional swipe gestures on touch screens, or use the top-left Google Street View like controls of the YouTube video. Use cardboard or VR headsets if available for more immersive experience.
+  en_AU:
+    <<: *DEFAULT_EN     # use English translation for en_AU
+  en_BZ:
+    <<: *DEFAULT_EN     # use English translation for en_BZ
+  en_CA:
+    <<: *DEFAULT_EN     # use English translation for en_CA
+  en_IE:
+    <<: *DEFAULT_EN     # use English translation for en_IE
+  en_JM:
+    <<: *DEFAULT_EN     # use English translation for en_JM
+  en_NZ:
+    <<: *DEFAULT_EN     # use English translation for en_NZ
+  en_ZA:
+    <<: *DEFAULT_EN     # use English translation for en_ZA
+  en_TT:
+    <<: *DEFAULT_EN     # use English translation for en_TT
+  en_UK:
+    <<: *DEFAULT_EN     # use English translation for en_UK
+  en_US:
+    <<: *DEFAULT_EN     # use English translation for en_US
+  # Spanish translation
+  # -------------------
+  es: &DEFAULT_ES
+    <<: *DEFAULT_EN     # load English values as default
+    title: CSU Fresno Guía de Paseo del Árbol
+    short_title: Paseo del árbol
+    description: Caminata de árboles rediseñada de especímenes indígenas, nativos y/o tolerantes a la sequía alrededor del campus.
+    home_title: Casa
+    contribute_title: Contribuir!
+    old_tree_walk_title: Paseo del árbol en desuso
+    design_title: Diseño
+    alternate_names_title: Nombres Alternativos
+    latin_name_title: Nombre latino
+    latin_alternates_title: Nombre alternativo latino
+    wikipedia_url_title: URL de Wikipedia
+    extra_url_title: URL adicional
+    height_title: Altura
+    width_title: Ancho
+    vr_camera_instructions: En dispositivos móviles, haga clic en el ícono de cartón para usar un auricular VR para mirar alrededor
+    vr_video_instructions: Mire a su alrededor con gestos de deslizamiento direccional en las pantallas táctiles, o use los controles similares a Google Street View en la parte superior izquierda del video de YouTube. Use auriculares de cartón o VR si están disponibles para una experiencia más inmersiva.
+  es_AR:
+    <<: *DEFAULT_ES     # use Spanish translation for es_AR
+  es_BO:
+    <<: *DEFAULT_ES     # use Spanish translation for es_BO
+  es_CL:
+    <<: *DEFAULT_ES     # use Spanish translation for es_CL
+  es_CO:
+    <<: *DEFAULT_ES     # use Spanish translation for es_CO
+  es_CR:
+    <<: *DEFAULT_ES     # use Spanish translation for es_CR
+  es_DO:
+    <<: *DEFAULT_ES     # use Spanish translation for es_DO
+  es_EC:
+    <<: *DEFAULT_ES     # use Spanish translation for es_EC
+  es_SV:
+    <<: *DEFAULT_ES     # use Spanish translation for es_SV
+  es_GT:
+    <<: *DEFAULT_ES     # use Spanish translation for es_GT
+  es_HN:
+    <<: *DEFAULT_ES     # use Spanish translation for es_HN
+  es_MX:
+    <<: *DEFAULT_ES     # use Spanish translation for es_MX
+  es_NI:
+    <<: *DEFAULT_ES     # use Spanish translation for es_NI
+  es_PA:
+    <<: *DEFAULT_ES     # use Spanish translation for es_PA
+  es_PY:
+    <<: *DEFAULT_ES     # use Spanish translation for es_PY
+  es_PE:
+    <<: *DEFAULT_ES     # use Spanish translation for es_PE
+  es_PR:
+    <<: *DEFAULT_ES     # use Spanish translation for es_PR
+  es_UY:
+    <<: *DEFAULT_ES     # use Spanish translation for es_UY
+  es_VE:
+    <<: *DEFAULT_ES     # use Spanish translation for es_VE

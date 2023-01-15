@@ -1,0 +1,13 @@
+{% unless page.lang %}
+<script type="text/javascript">
+  $( document ).ready(function(){
+    var userLang = navigator.language || navigator.userLanguage;
+    if (userLang && userLang.lastIndexOf("es", 0) === 0) {
+      window.location.href = "{{ site.url }}/es/"
+    }
+    else {
+      window.location.href = "{{ site.url }}/en/"
+    }
+  });
+</script>
+{% endunless %}

@@ -6,6 +6,7 @@ description: Redesigned tree walk of indigenous, native, and / or drought tolera
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: https://treewalks.github.io/ # the base hostname & protocol for your site
 copyright: '&copy; 2023 Csaba Toth'
+locale: en
 
 # Website Links
 old_tree_walk: https://adminfinance.fresnostate.edu/arboretum/treewalk/index.html
@@ -30,17 +31,3 @@ gmaps_yo: "AIzaSyDUpDuBL2jGSyyYq4f1RtuxtL4X9JsK5jQ"
 main_map:
   lat: 36.812263
   lon: -119.746558
-
-# For localization
-home_title: Home
-contribute_title: Contribute!
-old_tree_walk_title: Old Tree Walk
-design_title: Design
-alternate_names_title: Alternate names
-latin_name_title: Latin name
-latin_alternates_title: Latin alternate name
-extra_url_title: Extra URL
-height_title: Height
-width_title: Width
-vr_camera_instructions: On mobile devices click on the cardboard icon to use a VR headset to look around
-vr_video_instructions: Look around with directional swipe gestures on touch screens, or use the top-left Google Street View like controls of the YouTube video. Use cardboard or VR headsets if available for more immersive experience.

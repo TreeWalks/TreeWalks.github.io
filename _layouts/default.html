@@ -15,8 +15,9 @@
       </main>
     </div>
   {% include google-analytics.html %}
-  {% if page.layout == 'default' %}
+  {% if page.layout == 'default' or page.layout == 'home' %}
     {% include main_map.html %}
+    {% include lang.html %}
   {% endif %}
   {% if page.layout == 'post' %}
     {% include post_map.html %}

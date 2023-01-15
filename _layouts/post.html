@@ -9,34 +9,34 @@ layout: default
     <div class="post-subtitle">
       {% if page.alternate_names %}
         <p class="post-subtitle">
-          {{ site.alternate_names_title }}: {{ page.alternate_names }}
+          {{ site.data.messages.locales[navlang].alternate_names_title }}: {{ page.alternate_names }}
         </p>
       {% endif %}
       {% if stop.latin_name %}
         <p class="post-subtitle">
-          {{ site.latin_name_title }}: {{ stop.latin_name }}
+          {{ site.data.messages.locales[navlang].latin_name_title }}: {{ stop.latin_name }}
         </p>
       {% endif %}
       {% if stop.latin_alternates %}
         <p class="post-subtitle">
-          {{ site.latin_alternates_title }}: {{ stop.latin_alternates }}
+          {{ site.data.messages.locales[navlang].latin_alternates_title }}: {{ stop.latin_alternates }}
         </p>
       {% endif %}
       {% if stop.height or stop.width %}
         <p class="post-subtitle">
-          {% if stop.height %}{{ site.height_title }}: {{ stop.height }}'{% endif %}
+          {% if stop.height %}{{ site.data.messages.locales[navlang].height_title }}: {{ stop.height }}'{% endif %}
           {% if stop.height and stop.width %},{% endif %}
-          {% if stop.width %}{{ site.width_title }}: {{ stop.width }}'{% endif %}
+          {% if stop.width %}{{ site.data.messages.locales[navlang].width_title }}: {{ stop.width }}'{% endif %}
         </p>
       {% endif %}
       {% if stop.wiki %}
         <p class="post-subtitle">
-          <a href="{{ stop.wiki }}">Wikipedia URL</a>
+          <a href="{{ stop.wiki }}">{{ site.data.messages.locales[navlang].wikipedia_url_title }}</a>
         </p>
       {% endif %}
       {% if stop.extra_url %}
         <p class="post-subtitle">
-          <a href="{{ stop.extra_url }}">{{ site.extra_url_title }}</a>
+          <a href="{{ stop.extra_url }}">{{ site.data.messages.locales[navlang].extra_url_title }}</a>
         </p>
       {% endif %}
     </div>
@@ -49,7 +49,7 @@ layout: default
       <hr>
       {% if stop.is_image_360 %}
       <div style="text-align:justified">
-        <i class="fa fa-camera"></i> {{ site.vr_camera_instructions }}
+        <i class="fa fa-camera"></i> {{ site.data.messages.locales[navlang].vr_camera_instructions }}
       </div>
       {% endif %}
       <div style="text-align:center">
@@ -75,7 +75,7 @@ layout: default
     {% if stop.youtube_id %}
       <hr>
       <div style="text-align:justified">
-        <i class="fa fa-video-camera"></i> {{ site.vr_video_instructions }}
+        <i class="fa fa-video-camera"></i> {{ site.data.messages.locales[navlang].vr_video_instructions }}
       </div>
       <div style="text-align:center">
         <iframe

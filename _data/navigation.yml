@@ -1,0 +1,11 @@
+locales:
+  en:
+    languages:
+      - title: "🇪🇸 Cambiar a español"
+        url: /es/
+        lang: es
+  es:
+    languages:
+      - title: "🇺🇸 Switch to English"
+        url: /en/
+        lang: en
