@@ -1,6 +1,6 @@
 <script type="text/javascript">
   function initMap() {
-    {% assign stop = site.data.stops[page.stop] %}
+    {% assign stop = site.data.stops[page.index] %}
     var map = new google.maps.Map(document.getElementById('map'), {
       center: new google.maps.LatLng({{ stop.lat }}, {{ stop.lon }}),
       zoom: 19,
@@ -26,7 +26,7 @@
       position: new google.maps.LatLng({{ stop.lat }}, {{ stop.lon }}),
       icon: svgMarker,
       label: {
-        text: ({{ page.stop }} + 1).toString(),
+        text: ({{ page.index }} + 1).toString(),
         color: 'white',
         fontWeight: '800',
       },
@@ -34,7 +34,7 @@
     });
 
     google.maps.event.addListener(marker, 'click', function() {
-      infowindow.setContent(({{ page.stop }} + 1).toString() + ". {{ page.title }}");
+      infowindow.setContent(({{ page.index }} + 1).toString() + ". {{ page.title }}");
       infowindow.open(map, marker);
     });
   }

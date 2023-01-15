@@ -2,9 +2,9 @@
 layout: default
 ---
 <div class="post mdl-shadow--2dp">
-  {% assign stop = site.data.stops[page.stop] %}
+  {% assign stop = site.data.stops[page.index] %}
   <header class="post-header">
-    {% assign one_based_index = page.stop | plus: 1 %}
+    {% assign one_based_index = page.index | plus: 1 %}
     <h1 class="post-title">{{ one_based_index }}. {{ page.title }}</h1>
     <div class="post-subtitle">
       {% if page.alternate_names %}
