@@ -2,7 +2,7 @@
 Website dedicated for the tree walk(s) of CSU Fresno campus
 
 Source code of [CSU Fresno Tree Walk website](https://TreeWalks.github.io).
-A new tree walk of the campus was designed to primarily include native, indigenious, and / or drought resistant specimen. This website shows the newly designed stops along with 360 photos and a companion augmented reality guide application.
+A new tree walk of the campus was designed to primarily include native, indigenous, and / or drought resistant specimen. This website shows the newly designed stops along with 360 photos and a companion augmented reality guide application.
 
 ## Companion app accompanies website
 
