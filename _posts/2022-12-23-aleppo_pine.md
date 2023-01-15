@@ -1,5 +1,6 @@
 ---
 layout: post
+lang: en
 title: Aleppo pine
 alternate_names: Jerusalem pine
 date: 2022-12-23 10:00:00

@@ -1,5 +1,6 @@
 ---
 layout: post
+lang: en
 title: California Redbud
 alternate_names: Western redbud
 date: 2022-12-22 10:00:00

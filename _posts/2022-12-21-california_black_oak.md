@@ -1,5 +1,6 @@
 ---
 layout: post
+lang: en
 title: California Black Oak
 date: 2022-12-21 10:00:00
 description: Deciduous. Native to the United States.

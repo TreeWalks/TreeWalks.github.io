@@ -1,5 +1,6 @@
 ---
 layout: post
+lang: en
 title: Fruitless Olive
 date: 2022-12-20 10:00:00
 description: Evergreen. Native to the Mediterranean region. Drought tolerant.
