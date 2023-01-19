@@ -6,7 +6,7 @@ date: 2022-12-11 10:00:00
 description: Allergy-Free demonstration garden by the Arboretum at CSU Fresno
 stop: 10
 ---
-This large area demonstration garden coontains several areas and many placated species such as:
+This large area demonstration garden contains several areas and many placated species such as:
 * [Larustinus Viburnum tinus](https://en.wikipedia.org/wiki/Viburnum_tinus)
 * [Escallonia Exoniensis Fradesii](https://www.monrovia.com/pink-princess-escallonia.html) [Escallonia](https://www.tynursery.com/plant-library/woody-ornamentals/escallonia-x-exoniensis-fradesii/)
 * [Spice Bush (Calycanthus occidentalis)](https://en.wikipedia.org/wiki/Calycanthus_occidentalis) by the Rotary Club of Fresno
