@@ -295,13 +295,13 @@
   width: 100
   wiki: https://en.wikipedia.org/wiki/Sequoiadendron_giganteum
   extra_url: https://www.csustan.edu/campus-tree-story-map/giant-sequoia-sequoiadendron-giganteum
-- title: Mediterranian Fan Palm
+- title: Mediterranean Fan Palm
   kind: trees
   categories: vrview
   is_image_360: true
   default_yaw: 0
-  image_url: mediterranian_fan_palm.jpg
-  thumbnail: mediterranian_fan_palm_th.jpg
+  image_url: mediterranean_fan_palm.jpg
+  thumbnail: mediterranean_fan_palm_th.jpg
   lat: 36.812234
   lon: -119.750993
   geo_fence_nw_lat: 36.812722
