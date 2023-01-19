@@ -1,0 +1,13 @@
+---
+layout: null
+---
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string-array name="tree_walk">
+    {% assign posts=site.posts | where:"lang", "en" %}
+    {% for post in posts reversed %}
+      {% assign stop = site.data.stops[forloop.index0] %}
+      <item>{{ stop.lat }}|{{ stop.lon }}|{{ stop.geo_fence_nw_lat }}|{{ stop.geo_fence_nw_lon }}|{{ stop.geo_fence_se_lat }}|{{ stop.geo_fence_se_lon }}|{{ stop.kind }}|{{ stop.height }}|{{ stop.width }}</item>
+    {% endfor %}
+  </string-array>
+</resources>

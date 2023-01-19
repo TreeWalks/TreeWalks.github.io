@@ -6,8 +6,7 @@ layout: null
   <string-array name="tree_walk">
     {% assign posts=site.posts | where:"lang", "es" %}
     {% for post in posts reversed %}
-      {% assign stop = site.data.stops[forloop.index0] %}
-      <item>{{ stop.lat }}|{{ stop.lon }}|{{ stop.kind }}|{{ post.title }}|{{ post.description }}|{{ stop.height }}|{{ stop.width }}|{{ post.content }}|{{ post.url | absolute_url }}</item>
+      <item>{{ post.title }}|{{ post.description }}|{{ post.content }}|{{ post.url | absolute_url }}</item>
     {% endfor %}
   </string-array>
 </resources>
