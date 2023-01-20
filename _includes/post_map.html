@@ -1,6 +1,8 @@
 <script type="text/javascript">
   function initMap() {
     {% assign stop = site.data.stops[page.stop] %}
+
+    var wrapper = document.getElementById("content-wrapper");
     var mapWidth = wrapper.clientWidth
     var zoomLevel = mapWidth < 900 ? (mapWidth < 500 ? 17 : 18) : 19;
     var map = new google.maps.Map(document.getElementById('map'), {
