@@ -3,7 +3,7 @@ layout: null
 ---
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string-array name="tree_walk_en">
+  <string-array name="locations_en">
     {% assign posts=site.posts | where:"lang", "en" %}
     {% for post in posts reversed %}
       <item>{{ post.title }}|{{ post.description }}|{{ post.content }}|{{ post.url | absolute_url }}</item>

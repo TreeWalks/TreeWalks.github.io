@@ -3,7 +3,7 @@ layout: null
 ---
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string-array name="tree_walk">
+  <string-array name="locations">
     {% assign posts=site.posts | where:"lang", "en" %}
     {% for post in posts reversed %}
       {% assign stop = site.data.stops[forloop.index0] %}
