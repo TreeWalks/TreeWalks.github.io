@@ -1,9 +1,11 @@
 <script type="text/javascript">
   function initMap() {
     {% assign stop = site.data.stops[page.stop] %}
+    var mapWidth = wrapper.clientWidth
+    var zoomLevel = mapWidth < 900 ? (mapWidth < 500 ? 17 : 18) : 19;
     var map = new google.maps.Map(document.getElementById('map'), {
       center: new google.maps.LatLng({{ stop.lat }}, {{ stop.lon }}),
-      zoom: 19,
+      zoom: zoomLevel,
       gestureHandling: "cooperative",
       disableDefaultUI: false,
       mapTypeId: google.maps.MapTypeId.ROADMAP
