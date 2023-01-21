@@ -1,0 +1,5 @@
+---
+layout: null
+---
+Number,Name,Lat,Lon,Stop Type,URL{% assign posts=site.posts | where:"lang", "en" %}{% for post in posts reversed %}{% assign stop = site.data.stops[forloop.index0] %}
+{{ forloop.index }},{{ post.title }},{{ stop.lat }},{{ stop.lon }},{{ stop.kind }},{{ post.url | absolute_url }}{% endfor %}
