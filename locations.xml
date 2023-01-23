@@ -7,7 +7,7 @@ layout: null
     {% assign posts=site.posts | where:"lang", "en" %}
     {% for post in posts reversed %}
       {% assign stop = site.data.stops[forloop.index0] %}
-      <item>{{ stop.lat }}|{{ stop.lon }}|{{ stop.geo_fence_nw_lat }}|{{ stop.geo_fence_nw_lon }}|{{ stop.geo_fence_se_lat }}|{{ stop.geo_fence_se_lon }}|{{ stop.kind }}|{{ stop.height }}|{{ stop.width }}</item>
+      <item>{{ stop.lat }}|{{ stop.lon }}|{{ stop.geo_fence_nw_lat }}|{{ stop.geo_fence_nw_lon }}|{{ stop.geo_fence_se_lat }}|{{ stop.geo_fence_se_lon }}|{{ stop.kind }}|{{ stop.height }}|{{ stop.width }}|{{ stop.latin_name }}</item>
     {% endfor %}
   </string-array>
 </resources>
