@@ -23,7 +23,7 @@ material_theme: red-indigo
 application_name: Tree Walk Guide
 app_source_repo: https://github.com/TreeWalks/tree-walk-guide
 app_issues: https://github.com/TreeWalks/tree-walk-guide/issues/
-play_store_url: https://play.google.com/store/apps/details?id=dev.csaba.arguide.treewalk
+play_store_url: https://play.google.com/store/apps/details?id=dev.csaba.armap.treewalk
 
 # Google Analytics account ID (UA-XXXXXXXX-X)
 google-analytics-ua: UA-86563829-10
