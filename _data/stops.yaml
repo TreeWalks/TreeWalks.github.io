@@ -80,8 +80,9 @@
 - title: Afghan pine
   kind: tree
   categories: vrview
-  is_image_360: false
+  is_image_360: true
   default_yaw: 0
+  image_url: afghan_pine.jpg
   thumbnail: afghan_pine_th.jpg
   lat: 36.813504
   lon: -119.744932
