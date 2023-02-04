@@ -11,6 +11,8 @@ locale: en
 # Website Links
 old_tree_walk: https://adminfinance.fresnostate.edu/arboretum/treewalk/index.html
 website_source_repo: https://github.com/TreeWalks/TreeWalks.github.io
+en_issues_form: https://docs.google.com/forms/d/e/1FAIpQLSft5aroo2yJYlOmskQbRpjZXTzawHzy1UF3kwcAXptnDduDpg/viewform
+es_issues_form: https://docs.google.com/forms/d/e/1FAIpQLSdpQxSCUH8otB-u5j1J1UKhDaOpIkABeRhPCUnTbjcnd6BHMg/viewform
 website_issues: https://github.com/TreeWalks/TreeWalks.github.io/issues/
 
 # Build settings

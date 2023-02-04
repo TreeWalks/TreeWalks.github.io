@@ -19,6 +19,8 @@ locales:
     vr_camera_instructions: On mobile devices click on the cardboard icon to use a VR headset to look around
     vr_video_instructions: Look around with directional swipe gestures on touch screens, or use the top-left Google Street View like controls of the YouTube video. Use cardboard or VR headsets if available for more immersive experience.
     kml_download: KML of the walk
+    submit_issues: Submit issues
+    source_code: Source code
   en_AU:
     <<: *DEFAULT_EN     # use English translation for en_AU
   en_BZ:
@@ -60,6 +62,8 @@ locales:
     vr_camera_instructions: En dispositivos móviles, haga clic en el ícono de cartón para usar un auricular VR para mirar alrededor
     vr_video_instructions: Mire a su alrededor con gestos de deslizamiento direccional en las pantallas táctiles, o use los controles similares a Google Street View en la parte superior izquierda del video de YouTube. Use auriculares de cartón o VR si están disponibles para una experiencia más inmersiva.
     kml_download: KML de la caminata
+    submit_issues: Enviar problemas
+    source_code: Código fuente
   es_AR:
     <<: *DEFAULT_ES     # use Spanish translation for es_AR
   es_BO:
