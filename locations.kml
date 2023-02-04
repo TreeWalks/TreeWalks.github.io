@@ -1,0 +1,29 @@
+---
+layout: null
+---
+<?xml version="1.0" encoding="utf-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+{% assign posts=site.posts | where:"lang", "en" %}
+{% for post in posts reversed %}
+  {% assign stop = site.data.stops[forloop.index0] %}
+  <Placemark>
+    <name>{{ post.title }}</name>
+    <description>{{ post.description }}</description>
+    <Point>
+      <coordinates>{{ stop.lon }},{{ stop.lat }}</coordinates>
+    </Point>
+    <NetworkLink>
+      <name>{{ post.title }}</name>
+      <visibility>1</visibility>
+      <open>1</open>
+      <refreshVisibility>1</refreshVisibility>
+      <flyToView>1</flyToView>
+      <Link>
+        <href>{{ post.url | absolute_url }}</href>
+      </Link>
+    </NetworkLink>
+  </Placemark>
+{% endfor %}
+</Document>
+</kml>
