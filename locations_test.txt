@@ -1,0 +1,9 @@
+---
+layout: null
+---
+{% assign en_posts=site.posts | where:"lang", "en" %}
+{% for post in en_posts reversed %}{{ forloop.index0 }}, {% if post.stop == forloop.index0 %}OK{% else %}!!!{% endif %}, {{ post.title }}
+{% endfor %}
+{% assign es_posts=site.posts | where:"lang", "es" %}
+{% for post in es_posts reversed %}{{ forloop.index0 }}, {% if post.stop == forloop.index0 %}OK{% else %}!!!{% endif %}, {{ post.title }}
+{% endfor %}
