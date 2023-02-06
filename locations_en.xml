@@ -6,7 +6,7 @@ layout: null
   <string-array name="locations_en">
     {% assign posts=site.posts | where:"lang", "en" %}
     {% for post in posts reversed %}
-      <item>{{ post.title }}|{{ post.description }}|{{ post.content }}|{{ post.url | absolute_url }}|{{ post.fun_fact }}</item>
+      <item>{{ post.title }}|{{ post.description }}|{{ post.content }}|{{ post.url | absolute_url }}|{{ post.fun_fact }}|{{ post.native }}</item>
     {% endfor %}
   </string-array>
 </resources>
