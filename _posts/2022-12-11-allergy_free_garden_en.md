@@ -3,8 +3,9 @@ layout: post
 lang: en
 title: Allergy-free garden
 date: 2022-12-11 10:00:00
-description: Allergy-Free demonstration garden by the Arboretum at CSU Fresno
 stop: 10
+description: Allergy-Free demonstration garden by the Arboretum at CSU Fresno
+fun_fact: Encompasses acre and over 50 non-allergenic trees and shrubs. Significant donations from the Rotary Club of Fresno.
 ---
 This large area demonstration garden contains several areas and many placated species such as:
 * [Larustinus Viburnum tinus](https://en.wikipedia.org/wiki/Viburnum_tinus)

@@ -3,8 +3,9 @@ layout: post
 lang: es
 title: Jardín sin alergias
 date: 2022-12-11 10:00:00
-description: Jardín de demostración libre de alergias por el Arboretum en CSU Fresno
 stop: 10
+description: Jardín de demostración libre de alergias por el Arboretum en CSU Fresno
+fun_fact: Abarca acres y más de 50 árboles y arbustos hipoalergénicos. Importantes donaciones del Club Rotario de Fresno.
 ---
 Este jardín de demostración de gran área contiene varias áreas y muchas especies aplacadas, tales como:
 * [Larustinus Viburnum tinus](https://en.wikipedia.org/wiki/Viburnum_tinus)

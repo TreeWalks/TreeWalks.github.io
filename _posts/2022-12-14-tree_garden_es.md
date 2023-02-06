@@ -3,8 +3,8 @@ layout: post
 lang: es
 title: Jardín de árboles
 date: 2022-12-14 10:00:00
-description: Jardín de árboles en su mayoría resistentes a la sequía y/o nativos de California.
 stop: 13
+description: Jardín de árboles en su mayoría resistentes a la sequía y/o nativos de California.
 ---
 Este encantador jardín de árboles al sur de Concert Hall contiene numerosos árboles tolerantes a la sequía y/o nativos de California, tales como:
 * [Sapium sebiferum](https://en.wikipedia.org/wiki/Triadica_sebifera), [Árbol de sebo chino, árbol de palomitas de maíz](https://www.csustan.edu/campus-tree-story-map/chinese-tallow-triadica-sebifera). Altura: 35', Ancho: 35', Caducifolio. Nativo de China. El efecto del follaje es abierto en lugar de denso. Las hojas parecidas a los álamos se vuelven de color rojo anaranjado en otoño. Espigas de diminutas flores amarillas en primavera. Las cápsulas marrones de la fruta se abren para revelar semillas blancas y cerosas que persisten en el árbol en invierno. Profundamente arraigado. Tolerante a la sequía.
