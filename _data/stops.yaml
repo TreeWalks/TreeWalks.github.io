@@ -19,6 +19,7 @@
   traffic: true
   drought_tolerant: true
   native: N Mexico
+  california_native: false
   categories: vrview
   is_image_360: true
   default_yaw: 0
@@ -55,6 +56,7 @@
   pollution: true
   drought_tolerant: true
   native: E Australia and Pacific islands
+  california_native: false
   categories: vrview
   is_image_360: true
   default_yaw: 0
@@ -80,6 +82,7 @@
   traffic: false
   drought_tolerant: true
   native: E Mediterranean region
+  california_native: false
   categories: vrview
   is_image_360: true
   default_yaw: 0
@@ -103,6 +106,7 @@
   pollution: true
   drought_tolerant: true
   native: S Russia to Pakistan
+  california_native: false
   categories: vrview
   is_image_360: true
   default_yaw: 0
@@ -127,6 +131,7 @@
   pollution: true
   drought_tolerant: true
   native: Canary Islands
+  california_native: false
   categories: vrview
   is_image_360: true
   default_yaw: 0
@@ -150,6 +155,7 @@
   pollution: true
   drought_tolerant: true
   native: Australia
+  california_native: false
   categories: vrview
   is_image_360: true
   default_yaw: 0
@@ -173,6 +179,7 @@
   traffic: false
   drought_tolerant: true
   native: China and Korea
+  california_native: false
   categories: vrview
   is_image_360: true
   default_yaw: 0
@@ -197,6 +204,7 @@
   traffic: true
   drought_tolerant: true
   native: W Mediterranean region
+  california_native: false
   categories: vrview
   is_image_360: true
   default_yaw: 0
@@ -235,6 +243,7 @@
   pollution: true
   drought_tolerant: true
   native: South America
+  california_native: false
   categories: vrview
   is_image_360: true
   default_yaw: 0
@@ -257,6 +266,7 @@
   traffic: false
   drought_tolerant: true
   native: S Europe to W Asia
+  california_native: false
   categories: vrview
   is_image_360: true
   default_yaw: 0
@@ -294,6 +304,7 @@
   traffic: true
   drought_tolerant: true
   native: E Mediterranean region and W Asia
+  california_native: false
   categories: vrview
   is_image_360: true
   default_yaw: 0
@@ -319,6 +330,7 @@
   traffic: true
   drought_tolerant: true
   native: NW America (Oregon to Baja, CA)
+  california_native: true
   categories: vrview
   is_image_360: true
   default_yaw: 0
@@ -355,6 +367,7 @@
   climate_action: true
   pollution: true
   native: Sierra Nevada of California
+  california_native: true
   categories: vrview
   is_image_360: true
   default_yaw: 0
@@ -379,6 +392,7 @@
   pollution: true
   drought_tolerant: true
   native: Mediterranean region
+  california_native: false
   categories: vrview
   is_image_360: true
   default_yaw: 0
@@ -403,6 +417,7 @@
   pollution: true
   drought_tolerant: true
   native: Mediterranean region
+  california_native: false
   categories: vrview
   is_image_360: true
   default_yaw: 0
@@ -425,6 +440,7 @@
   evergreen: false
   traffic: false
   native: United States
+  california_native: true
   categories: vrview
   is_image_360: true
   default_yaw: 0
@@ -448,6 +464,7 @@
   traffic: false
   drought_tolerant: true
   native: California, Utah, Arizona
+  california_native: true
   categories: vrview
   is_image_360: true
   default_yaw: 0
@@ -472,6 +489,7 @@
   pollution: true
   drought_tolerant: true
   native: Mediterranean region
+  california_native: false
   categories: vrview
   is_image_360: true
   default_yaw: 0
@@ -495,6 +513,7 @@
   climate_action: true
   traffic: false
   native: Coastal areas from BC to California
+  california_native: true
   categories: vrview
   is_image_360: true
   default_yaw: 0
