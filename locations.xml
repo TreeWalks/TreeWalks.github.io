@@ -7,7 +7,7 @@ layout: null
     {% assign posts=site.posts | where:"lang", "en" %}
     {% for post in posts reversed %}
       {% assign stop = site.data.stops[forloop.index0] %}
-      <item>{{ stop.lat }}|{{ stop.lon }}|{{ stop.geo_fence_nw_lat }}|{{ stop.geo_fence_nw_lon }}|{{ stop.geo_fence_se_lat }}|{{ stop.geo_fence_se_lon }}|{{ stop.kind }}|{{ stop.height }}|{{ stop.width }}|{{ stop.scientific_name }}|{{ stop.phylum }}|{{ stop.evergreen }}|{{ stop.climate_action }}|{{ stop.pollution }}|{{ stop.traffic }}|{{ stop.drought_tolerant }}|{{ stop.california_native }}</item>
+      <item>{{ stop.lat }}|{{ stop.lon }}|{{ stop.geo_fence_nw_lat }}|{{ stop.geo_fence_nw_lon }}|{{ stop.geo_fence_se_lat }}|{{ stop.geo_fence_se_lon }}|{{ stop.kind }}|{{ stop.height }}|{{ stop.width }}|{{ stop.scientific_name }}|{{ stop.scientific_alternates }}|{{ stop.phylum }}|{{ stop.evergreen }}|{{ stop.climate_action }}|{{ stop.pollution }}|{{ stop.traffic }}|{{ stop.drought_tolerant }}|{{ stop.california_native }}</item>
     {% endfor %}
   </string-array>
 </resources>
