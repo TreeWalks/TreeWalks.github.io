@@ -15,3 +15,15 @@
         "vrview",
         "map"
 ;
+
+span {
+  .material-icons {
+    .good {
+      color: green;
+    }
+
+    .error {
+      color: red;
+    }
+  }
+}

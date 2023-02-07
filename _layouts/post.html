@@ -35,6 +35,27 @@ layout: default
           {% if stop.width %}{{ site.data.messages.locales[navlang].width_title }}: {{ stop.width }}'{% endif %}
         </p>
       {% endif %}
+
+      <p class="post-subtitle">
+        {{ site.data.messages.locales[navlang].drought_tolerant }}: {% if stop.drought_tolerant %}<span class="material-icons good">check</span> {{ site.data.messages.locales[navlang].yes_text }}{% else %}<span class="material-icons error">clear</span> {{ site.data.messages.locales[navlang].no_text }}{% endif %}
+      </p>
+
+      <p class="post-subtitle">
+        {{ site.data.messages.locales[navlang].climate_action }}: {% if stop.climate_action %}<span class="material-icons good">check</span> {{ site.data.messages.locales[navlang].yes_text }}{% else %}<span class="material-icons error">clear</span> {{ site.data.messages.locales[navlang].no_text }}{% endif %}
+      </p>
+
+      {% if page.native_to %}
+        <p class="post-subtitle">
+          {{ site.data.messages.locales[navlang].native_to }}: {{ page.native_to }}
+        </p>
+      {% endif %}
+
+      {% if page.fun_fact %}
+        <p class="post-subtitle">
+          {{ site.data.messages.locales[navlang].fun_fact }}: {{ page.fun_fact }}
+        </p>
+      {% endif %}
+
       {% if stop.wiki %}
         <p class="post-subtitle">
           <a href="{{ stop.wiki }}">{{ site.data.messages.locales[navlang].wikipedia_url_title }}</a>
@@ -73,8 +94,7 @@ layout: default
           width="100%"
           scrolling="no"
           allowfullscreen
-          src="{{ site.baseurl }}/assets/images/{{ stop.image_url }}">
-        </img>
+          src="{{ site.baseurl }}/assets/images/{{ stop.image_url }}" />
         {% endif %}
       </div>
     {% endif %}

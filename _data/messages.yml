@@ -21,6 +21,12 @@ locales:
     kml_download: KML of the walk
     submit_issues: Submit issues
     source_code: Source code
+    yes_text: "Yes"
+    no_text: "No"
+    drought_tolerant: Drought tolerant
+    climate_action: Climate Action
+    native_to: Native to
+    fun_fact: Fun fact
   en_AU:
     <<: *DEFAULT_EN     # use English translation for en_AU
   en_BZ:
@@ -64,6 +70,12 @@ locales:
     kml_download: KML de la caminata
     submit_issues: Enviar problemas
     source_code: Código fuente
+    yes_text: "Sí"
+    no_text: "No"
+    drought_tolerant: Tolerante a la sequía
+    climate_action: Acción Climática
+    native_to: Nativo de
+    fun_fact: Hechos graciosos
   es_AR:
     <<: *DEFAULT_ES     # use Spanish translation for es_AR
   es_BO:
