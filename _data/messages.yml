@@ -10,8 +10,8 @@ locales:
     old_tree_walk_title: Old Tree Walk
     design_title: Design
     alternate_names_title: Other common names
-    latin_name_title: Scientific name
-    latin_alternates_title: Scientific name synonyms
+    scientific_name_title: Scientific name
+    scientific_alternates_title: Scientific name synonyms
     wikipedia_url_title: Wikipedia URL
     extra_url_title: Extra URL
     height_title: Height
@@ -53,8 +53,8 @@ locales:
     old_tree_walk_title: Paseo del árbol en desuso
     design_title: Diseño
     alternate_names_title: Nombres Alternativos
-    latin_name_title: Nombre científico
-    latin_alternates_title: Sinonimos de nombres cientificos
+    scientific_name_title: Nombre científico
+    scientific_alternates_title: Sinonimos de nombres cientificos
     wikipedia_url_title: URL de Wikipedia
     extra_url_title: URL adicional
     height_title: Altura

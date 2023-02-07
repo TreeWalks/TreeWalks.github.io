@@ -30,8 +30,8 @@
   geo_fence_nw_lon: -119.747167
   geo_fence_se_lat: 36.812949
   geo_fence_se_lon: -119.746979
-  latin_name: Washingtonia robusta
-  latin_alternates: Washingtonia filamentosa
+  scientific_name: Washingtonia robusta
+  scientific_alternates: Washingtonia filamentosa
   height: 100
   wiki: https://en.wikipedia.org/wiki/Washingtonia_robusta
   extra_url: https://www.cal-ipc.org/plants/profile/washingtonia-robusta-profile/
@@ -68,7 +68,7 @@
   geo_fence_se_lon: -119.745969
   height: 70
   width: 20
-  latin_name: Casuarina equisetifolia
+  scientific_name: Casuarina equisetifolia
   wiki: https://en.wikipedia.org/wiki/Casuarina_equisetifolia
   extra_url: https://wiki.bugwood.org/Casuarina_equisetifolia
 - title: Common fig
@@ -91,7 +91,7 @@
   geo_fence_nw_lon: -119.746300
   geo_fence_se_lat: 36.812764
   geo_fence_se_lon: -119.745980
-  latin_name: Ficus carica
+  scientific_name: Ficus carica
   height: 15-30
   wiki: https://en.wikipedia.org/wiki/Fig
   extra_url: https://plants.ces.ncsu.edu/plants/ficus-carica/
@@ -114,7 +114,7 @@
   geo_fence_nw_lon: -119.745055
   geo_fence_se_lat: 36.813349
   geo_fence_se_lon: -119.744753
-  latin_name: Pinus eldarica
+  scientific_name: Pinus eldarica
   height: 30-80
   width: 25-40
   wiki: https://en.wikipedia.org/wiki/Pinus_brutia
@@ -138,7 +138,7 @@
   geo_fence_nw_lon: -119.744726
   geo_fence_se_lat: 36.813187
   geo_fence_se_lon: -119.744325
-  latin_name: Pinus canariensis
+  scientific_name: Pinus canariensis
   height: 60-80
   width: 25
   wiki: https://en.wikipedia.org/wiki/Pinus_canariensis
@@ -161,7 +161,7 @@
   geo_fence_nw_lon: -119.744106
   geo_fence_se_lat: 36.813096
   geo_fence_se_lon: -119.743898
-  latin_name: Eucalyptus nicholii
+  scientific_name: Eucalyptus nicholii
   height: 40
   width: 25
   wiki: https://en.wikipedia.org/wiki/Eucalyptus_nicholii
@@ -184,7 +184,7 @@
   geo_fence_nw_lon: -119.742815
   geo_fence_se_lat: 36.812425
   geo_fence_se_lon: -119.742625
-  latin_name: Pyrus calleryana
+  scientific_name: Pyrus calleryana
   height: 40
   width: 30
   wiki: https://en.wikipedia.org/wiki/Pyrus_calleryana
@@ -208,7 +208,7 @@
   geo_fence_nw_lon: -119.742862
   geo_fence_se_lat: 36.812103
   geo_fence_se_lon: -119.742616
-  latin_name: Quercus suber
+  scientific_name: Quercus suber
   height: 70-100
   width: 70
   wiki: https://en.wikipedia.org/wiki/Quercus_suber
@@ -246,7 +246,7 @@
   geo_fence_nw_lon: -119.746102
   geo_fence_se_lat: 36.811551
   geo_fence_se_lon: -119.745850
-  latin_name: Butia capitata
+  scientific_name: Butia capitata
   height: 20
   wiki: https://en.wikipedia.org/wiki/Butia_capitata
   extra_url: https://plants.ces.ncsu.edu/plants/butia-capitata/
@@ -268,7 +268,7 @@
   geo_fence_nw_lon: -119.745958
   geo_fence_se_lat: 36.810854
   geo_fence_se_lon: -119.745722
-  latin_name: Vitex agnus-castus
+  scientific_name: Vitex agnus-castus
   height: 8-25
   wiki: https://en.wikipedia.org/wiki/Vitex_agnus-castus
   extra_url: https://selectree.calpoly.edu/tree-detail/1464
@@ -305,7 +305,7 @@
   geo_fence_nw_lon: -119.748805
   geo_fence_se_lat: 36.811666
   geo_fence_se_lon: -119.748087
-  latin_name: Cupressus sempervirens 'Stricta'
+  scientific_name: Cupressus sempervirens 'Stricta'
   height: 60
   width: 8
   wiki: https://en.wikipedia.org/wiki/Cupressus_sempervirens
@@ -330,8 +330,8 @@
   geo_fence_nw_lon: -119.748021
   geo_fence_se_lat: 36.811928
   geo_fence_se_lon: -119.747635
-  latin_name: Calocedrus decurrens
-  latin_alternates: Libocedrus decurrens
+  scientific_name: Calocedrus decurrens
+  scientific_alternates: Libocedrus decurrens
   height: 100
   wiki: https://en.wikipedia.org/wiki/Calocedrus_decurrens
   extra_url: https://www.csustan.edu/campus-tree-story-map/incense-cedar-calocedrus-decurrens
@@ -366,7 +366,7 @@
   geo_fence_nw_lon: -119.750764
   geo_fence_se_lat: 36.811652
   geo_fence_se_lon: -119.750448
-  latin_name: Sequoiadendron giganteum
+  scientific_name: Sequoiadendron giganteum
   height: 300
   width: 100
   wiki: https://en.wikipedia.org/wiki/Sequoiadendron_giganteum
@@ -390,7 +390,7 @@
   geo_fence_nw_lon: -119.751115
   geo_fence_se_lat: 36.812223
   geo_fence_se_lon: -119.750952
-  latin_name: Chamaerops humilis
+  scientific_name: Chamaerops humilis
   height: 20
   width: 20
   wiki: https://en.wikipedia.org/wiki/Chamaerops
@@ -414,7 +414,7 @@
   geo_fence_nw_lon: -119.750857
   geo_fence_se_lat: 36.813514
   geo_fence_se_lon: -119.750675
-  latin_name: Olea europaea
+  scientific_name: Olea europaea
   height: 30
   width: 30
   wiki: https://en.wikipedia.org/wiki/Olive
@@ -436,7 +436,7 @@
   geo_fence_nw_lon: -119.750455
   geo_fence_se_lat: 36.814276
   geo_fence_se_lon: -119.750222
-  latin_name: Quercus kelloggii
+  scientific_name: Quercus kelloggii
   height: 30-80
   width: 30
   wiki: https://en.wikipedia.org/wiki/Quercus_kelloggii
@@ -459,7 +459,7 @@
   geo_fence_nw_lon: -119.750302
   geo_fence_se_lat: 36.814200
   geo_fence_se_lon: -119.749167
-  latin_name: Cercis occidentalis
+  scientific_name: Cercis occidentalis
   height: 20
   width: 20
   wiki: https://en.wikipedia.org/wiki/Cercis_occidentalis
@@ -483,7 +483,7 @@
   geo_fence_nw_lon: -119.749121
   geo_fence_se_lat: 36.814127
   geo_fence_se_lon: -119.748727
-  latin_name: Pinus halepensis
+  scientific_name: Pinus halepensis
   height: 30-60
   width: 20-30
   wiki: https://en.wikipedia.org/wiki/Pinus_halepensis
@@ -506,7 +506,7 @@
   geo_fence_nw_lon: -119.74914
   geo_fence_se_lat: 36.813593
   geo_fence_se_lon: -119.748750
-  latin_name: Alnus rhombifolia
+  scientific_name: Alnus rhombifolia
   height: 50-90
   width: 40
   wiki: https://en.wikipedia.org/wiki/Alnus_rhombifolia

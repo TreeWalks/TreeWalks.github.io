@@ -18,14 +18,14 @@ layout: default
           {{ site.data.messages.locales[navlang].alternate_names_title }}: {{ page.alternate_names }}
         </p>
       {% endif %}
-      {% if stop.latin_name %}
+      {% if stop.scientific_name %}
         <p class="post-subtitle">
-          {{ site.data.messages.locales[navlang].latin_name_title }}: {{ stop.latin_name }}
+          {{ site.data.messages.locales[navlang].scientific_name_title }}: {{ stop.scientific_name }}
         </p>
       {% endif %}
-      {% if stop.latin_alternates %}
+      {% if stop.scientific_alternates %}
         <p class="post-subtitle">
-          {{ site.data.messages.locales[navlang].latin_alternates_title }}: {{ stop.latin_alternates }}
+          {{ site.data.messages.locales[navlang].scientific_alternates_title }}: {{ stop.scientific_alternates }}
         </p>
       {% endif %}
       {% if stop.height or stop.width %}
