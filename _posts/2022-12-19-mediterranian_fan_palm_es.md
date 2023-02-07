@@ -7,6 +7,6 @@ date: 2022-12-19 10:00:00
 stop: 18
 description: La única palmera nativa de Europa. Tolerante a la sequía.
 fun_fact: Las cáscaras de la palma de abanico mediterránea contienen altas cantidades de tanino, lo que les da un uso como astringente
-native: Región mediterranea
+native_to: Región mediterranea
 ---
 Hojas perennes. Originario de la región mediterránea. La única palmera nativa de Europa. La planta desarrolla una forma de agrupamiento a partir de retoños basales. Hojas de color verde claro, en forma de abanico. Tolerante a la sequía. Hay varios grupos de ellos a lo largo de la pared este del South Gym.
