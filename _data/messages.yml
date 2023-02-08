@@ -27,6 +27,7 @@ locales:
     climate_action: Climate Action
     native_to: Native to
     fun_fact: Fun fact
+    evergreen: Evergreen
   en_AU:
     <<: *DEFAULT_EN     # use English translation for en_AU
   en_BZ:
@@ -76,6 +77,7 @@ locales:
     climate_action: Acción Climática
     native_to: Nativo de
     fun_fact: Hechos graciosos
+    evergreen: Hojas perennes
   es_AR:
     <<: *DEFAULT_ES     # use Spanish translation for es_AR
   es_BO:

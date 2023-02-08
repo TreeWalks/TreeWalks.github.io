@@ -37,6 +37,10 @@ layout: default
       {% endif %}
 
       <p class="post-subtitle">
+        {{ site.data.messages.locales[navlang].evergreen }}: {% if stop.evergreen %}<span class="material-icons good">check</span> {{ site.data.messages.locales[navlang].yes_text }}{% else %}<span class="material-icons error">clear</span> {{ site.data.messages.locales[navlang].no_text }}{% endif %}
+      </p>
+
+      <p class="post-subtitle">
         {{ site.data.messages.locales[navlang].drought_tolerant }}: {% if stop.drought_tolerant %}<span class="material-icons good">check</span> {{ site.data.messages.locales[navlang].yes_text }}{% else %}<span class="material-icons error">clear</span> {{ site.data.messages.locales[navlang].no_text }}{% endif %}
       </p>
 
