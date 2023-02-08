@@ -16,14 +16,10 @@
         "map"
 ;
 
-span {
-  .material-icons {
-    .good {
-      color: green;
-    }
+.success-color {
+  color: green;
+}
 
-    .error {
-      color: red;
-    }
-  }
+.error-color {
+  color: red;
 }
