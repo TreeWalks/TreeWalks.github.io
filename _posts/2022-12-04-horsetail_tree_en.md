@@ -1,8 +1,8 @@
 ---
 layout: post
 lang: en
-title: Horsetail tree
-alternate_names: beef wood, she-oak
+title: Horsetail Tree
+alternate_names: Beef Wood, She-Oak
 date: 2022-12-04 10:00:00
 stop: 3
 description: Long, thin, green branchlets resemble pine needles

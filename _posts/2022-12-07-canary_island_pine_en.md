@@ -1,7 +1,7 @@
 ---
 layout: post
 lang: en
-title: Canary Island pine
+title: Canary Island Pine
 date: 2022-12-07 10:00:00
 stop: 6
 description: Native to the Canary Islands. Drought tolerant.

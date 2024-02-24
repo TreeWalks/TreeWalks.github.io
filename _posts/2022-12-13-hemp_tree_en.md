@@ -1,8 +1,8 @@
 ---
 layout: post
 lang: en
-title: Hemp tree
-alternate_names: Chaste tree, Vitex, Chasteberry, Abraham's balm, Lilac Chastetree, or Monk's pepper
+title: Hemp Tree
+alternate_names: Chaste Tree, Vitex, Chasteberry, Abraham's Balm, Lilac Chastetree, or Monk's Pepper
 date: 2022-12-13 10:00:00
 stop: 12
 description: Deciduous. Native from southern Europe to western Asia. Drought tolerant.

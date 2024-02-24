@@ -2,7 +2,7 @@
 layout: post
 lang: en
 title: California Redbud
-alternate_names: Western redbud
+alternate_names: Western Redbud
 date: 2022-12-22 10:00:00
 stop: 21
 description: Deciduous. Native to California, Utah, and Arizona.

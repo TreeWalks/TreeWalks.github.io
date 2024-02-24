@@ -1,7 +1,7 @@
 ---
 layout: post
 lang: en
-title: White alder
+title: White Alder
 date: 2022-12-24 10:00:00
 stop: 23
 description: Native to coastal areas, along stream banks, from British Columbia to California.

@@ -2,7 +2,7 @@
 layout: post
 lang: en
 title: Mediterranean Fan Palm
-alternate_names: European fan palm
+alternate_names: European Fan Palm
 date: 2022-12-19 10:00:00
 stop: 18
 description: The only palm native to Europe. Drought tolerant.

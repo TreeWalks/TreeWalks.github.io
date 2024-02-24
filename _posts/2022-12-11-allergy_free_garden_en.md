@@ -1,7 +1,7 @@
 ---
 layout: post
 lang: en
-title: Allergy-free garden
+title: Allergy-Free Garden
 date: 2022-12-11 10:00:00
 stop: 10
 description: Allergy-Free demonstration garden by the Arboretum at CSU Fresno

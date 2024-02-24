@@ -11,7 +11,7 @@
   geo_fence_nw_lon: -119.748566
   geo_fence_se_lat: 36.812939
   geo_fence_se_lon: -119.748217
-- title: Thread palm
+- title: Thread Palm
   kind: tree
   phylum: angiosperm
   evergreen: true
@@ -48,7 +48,7 @@
   geo_fence_nw_lon: -119.746726
   geo_fence_se_lat: 36.813643
   geo_fence_se_lon: -119.746318
-- title: Horsetail tree
+- title: Horsetail Tree
   kind: trees
   phylum: angiosperm
   evergreen: true
@@ -71,7 +71,7 @@
   scientific_name: Casuarina equisetifolia
   wiki: https://en.wikipedia.org/wiki/Casuarina_equisetifolia
   extra_url: https://wiki.bugwood.org/Casuarina_equisetifolia
-- title: Common fig
+- title: Common Fig
   kind: trees
   phylum: angiosperm
   evergreen: false
@@ -95,7 +95,7 @@
   height: 15-30
   wiki: https://en.wikipedia.org/wiki/Fig
   extra_url: https://plants.ces.ncsu.edu/plants/ficus-carica/
-- title: Afghan pine
+- title: Afghan Pine
   kind: tree
   phylum: gymnosperm
   evergreen: true
@@ -119,7 +119,7 @@
   width: 25-40
   wiki: https://en.wikipedia.org/wiki/Pinus_brutia
   extra_url: https://www.dirtdoctor.com/garden/Afghan-Pine_vq2608.htm
-- title: Canary Island pine
+- title: Canary Island Pine
   kind: trees
   phylum: gymnosperm
   evergreen: true
@@ -143,7 +143,7 @@
   width: 25
   wiki: https://en.wikipedia.org/wiki/Pinus_canariensis
   extra_url: https://www.csustan.edu/campus-tree-story-map/canary-island-pine-pinus-canariensis
-- title: Peppermint gum
+- title: Peppermint Gum
   kind: tree
   phylum: angiosperm
   evergreen: true
@@ -166,7 +166,7 @@
   width: 25
   wiki: https://en.wikipedia.org/wiki/Eucalyptus_nicholii
   extra_url: https://www.csustan.edu/campus-tree-story-map/nichols-willowleafed-peppermint-eucalyptus-nicholii
-- title: Aristocrat pear
+- title: Aristocrat Pear
   kind: tree
   phylum: angiosperm
   evergreen: false
@@ -189,7 +189,7 @@
   width: 30
   wiki: https://en.wikipedia.org/wiki/Pyrus_calleryana
   extra_url: https://invasive-species.fandom.com/wiki/Callery_Pear
-- title: Cork oak
+- title: Cork Oak
   kind: tree
   phylum: angiosperm
   evergreen: true
@@ -213,7 +213,7 @@
   width: 70
   wiki: https://en.wikipedia.org/wiki/Quercus_suber
   extra_url: https://www.csustan.edu/campus-tree-story-map/cork-oak-quercus-suber
-- title: Allergy-free garden
+- title: Allergy-Free Garden
   kind: garden
   categories: vrview
   is_image_360: true
@@ -228,7 +228,7 @@
   geo_fence_se_lon: -119.742353
   wiki: https://adminfinance.fresnostate.edu/arboretum/garcol/allgeryfree.html
   extra_url: https://fresnostatefocus.com/2019/05/07/allergies-no-more/
-- title: Jelly palm
+- title: Jelly Palm
   kind: tree
   phylum: angiosperm
   evergreen: true
@@ -250,7 +250,7 @@
   height: 20
   wiki: https://en.wikipedia.org/wiki/Butia_capitata
   extra_url: https://plants.ces.ncsu.edu/plants/butia-capitata/
-- title: Hemp tree
+- title: Hemp Tree
   kind: tree
   phylum: angiosperm
   evergreen: false
@@ -272,7 +272,7 @@
   height: 8-25
   wiki: https://en.wikipedia.org/wiki/Vitex_agnus-castus
   extra_url: https://selectree.calpoly.edu/tree-detail/1464
-- title: Tree garden
+- title: Tree Garden
   kind: garden
   categories: vrview
   is_image_360: true
@@ -285,7 +285,7 @@
   geo_fence_nw_lon: -119.746188
   geo_fence_se_lat: 36.810187
   geo_fence_se_lon: -119.745650
-- title: Italian cypress
+- title: Italian Cypress
   kind: trees
   phylum: gymnosperm
   evergreen: true
@@ -310,7 +310,7 @@
   width: 8
   wiki: https://en.wikipedia.org/wiki/Cupressus_sempervirens
   extra_url: https://www.csustan.edu/campus-tree-story-map/italian-cypress-cupressus-sempervirens
-- title: Incense cedar
+- title: Incense Cedar
   kind: tree
   phylum: gymnosperm
   evergreen: true
@@ -335,7 +335,7 @@
   height: 100
   wiki: https://en.wikipedia.org/wiki/Calocedrus_decurrens
   extra_url: https://www.csustan.edu/campus-tree-story-map/incense-cedar-calocedrus-decurrens
-- title: Peace garden
+- title: Peace Garden
   kind: garden
   categories: vrview
   is_image_360: true
@@ -442,7 +442,7 @@
   width: 20
   wiki: https://en.wikipedia.org/wiki/Cercis_occidentalis
   extra_url: https://www.csustan.edu/campus-tree-story-map/western-redbud-cercis-occidentalis
-- title: Aleppo pine
+- title: Aleppo Pine
   kind: tree
   phylum: gymnosperm
   evergreen: true
@@ -466,7 +466,7 @@
   width: 20-30
   wiki: https://en.wikipedia.org/wiki/Pinus_halepensis
   extra_url: https://www.csustan.edu/campus-tree-story-map/aleppo-pine-pinus-halepensis
-- title: White alder
+- title: White Alder
   kind: tree
   phylum: angiosperm
   evergreen: false

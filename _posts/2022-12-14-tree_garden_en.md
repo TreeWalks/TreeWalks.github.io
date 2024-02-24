@@ -1,7 +1,7 @@
 ---
 layout: post
 lang: en
-title: Tree garden
+title: Tree Garden
 date: 2022-12-14 10:00:00
 stop: 13
 description: Garden of mostly drought resistant and / or California native trees.

@@ -1,8 +1,8 @@
 ---
 layout: post
 lang: en
-title: Peppermint gum
-alternate_names: Nichol's willow-leafed peppermint, Willow Peppermint
+title: Peppermint Gum
+alternate_names: Nichol's Willow-Leafed Peppermint, Willow Peppermint
 date: 2022-12-08 10:00:00
 stop: 7
 description: Evergreen. Native to Australia. Drought tolerant.

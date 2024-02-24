@@ -1,7 +1,7 @@
 ---
 layout: post
 lang: en
-title: Incense cedar
+title: Incense Cedar
 date: 2022-12-16 10:00:00
 stop: 15
 description: Evergreen. Native to Western North America. Drought tolerant.

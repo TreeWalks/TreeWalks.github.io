@@ -1,8 +1,8 @@
 ---
 layout: post
 lang: en
-title: Jelly palm
-alternate_names: Pindo palm, Butia palm
+title: Jelly Palm
+alternate_names: Pindo Palm, Butia Palm
 date: 2022-12-12 10:00:00
 stop: 11
 description: Evergreen. Native to South America. Drought tolerant.

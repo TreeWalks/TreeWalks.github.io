@@ -1,7 +1,7 @@
 ---
 layout: post
 lang: en
-title: Italian cypress
+title: Italian Cypress
 date: 2022-12-15 10:00:00
 stop: 14
 description: Native to the eastern Mediterranean region and western Asia. Drought tolerant.

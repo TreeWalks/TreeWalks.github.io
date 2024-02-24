@@ -1,8 +1,8 @@
 ---
 layout: post
 lang: en
-title: Thread palm
-alternate_names: Mexican fan palm, Washington palm, skyduster
+title: Thread Palm
+alternate_names: Mexican Fan Palm, Washington Palm, Skyduster
 date: 2022-12-02 10:00:00
 stop: 1
 description: Evergreen, native to northern Mexico, drought tolerant

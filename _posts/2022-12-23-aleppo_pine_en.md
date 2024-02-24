@@ -1,8 +1,8 @@
 ---
 layout: post
 lang: en
-title: Aleppo pine
-alternate_names: Jerusalem pine
+title: Aleppo Pine
+alternate_names: Jerusalem Pine
 date: 2022-12-23 10:00:00
 stop: 22
 description: Evergreen. Native to the Mediterranean region. Drought tolerant.
