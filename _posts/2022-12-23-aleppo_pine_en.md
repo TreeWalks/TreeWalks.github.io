@@ -3,8 +3,8 @@ layout: post
 lang: en
 title: Aleppo Pine
 alternate_names: Jerusalem Pine
-date: 2022-12-23 10:00:00
-stop: 22
+date: 2022-12-22 10:00:00
+stop: 21
 description: Evergreen. Native to the Mediterranean region. Drought tolerant.
 fun_fact: Resin from Aleppo pines is used to flavor retsina, a traditional Greek white resinated wine
 native_to: Mediterranean region

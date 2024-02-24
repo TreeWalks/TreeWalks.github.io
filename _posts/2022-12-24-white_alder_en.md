@@ -2,8 +2,8 @@
 layout: post
 lang: en
 title: White Alder
-date: 2022-12-24 10:00:00
-stop: 23
+date: 2022-12-23 10:00:00
+stop: 22
 description: Native to coastal areas, along stream banks, from British Columbia to California.
 fun_fact: Alder trees can fix nitrogen on their own, allowing them to tolerate infertile soils
 native_to: Coastal areas from British Columbia to California

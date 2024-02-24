@@ -2,8 +2,8 @@
 layout: post
 lang: es
 title: Aliso blanco
-date: 2022-12-24 10:00:00
-stop: 23
+date: 2022-12-23 10:00:00
+stop: 22
 description: Nativa de las áreas costeras, a lo largo de las orillas de los arroyos, desde la Columbia Británica hasta California.
 fun_fact: Los árboles de aliso pueden fijar nitrógeno por sí mismos, lo que les permite tolerar suelos infértiles
 native_to: Zonas costeras desde la Columbia Británica hasta California

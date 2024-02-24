@@ -3,8 +3,8 @@ layout: post
 lang: es
 title: Ciclamor de California
 alternate_names: Ciclamor occidental
-date: 2022-12-22 10:00:00
-stop: 21
+date: 2022-12-21 10:00:00
+stop: 20
 description: Caduco. Originaria de California, Utah y Arizona.
 fun_fact: Las ramitas del capullo rojo occidental se utilizan en la cestería de los pueblos indígenas y producen un tinte rojizo tenue en la canasta
 native_to: California, Utah, Arizona
