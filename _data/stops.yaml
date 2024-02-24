@@ -419,28 +419,6 @@
   width: 30
   wiki: https://en.wikipedia.org/wiki/Olive
   extra_url: https://www.csustan.edu/campus-tree-story-map/olive-tree-olea-europaea
-- title: California Black Oak
-  kind: trees
-  phylum: angiosperm
-  evergreen: false
-  traffic: false
-  california_native: true
-  categories: vrview
-  is_image_360: true
-  default_yaw: 0
-  image_url: california_black_oak.jpg
-  thumbnail: california_black_oak_th.jpg
-  lat: 36.814492
-  lon: -119.750421
-  geo_fence_nw_lat: 36.814677
-  geo_fence_nw_lon: -119.750455
-  geo_fence_se_lat: 36.814276
-  geo_fence_se_lon: -119.750222
-  scientific_name: Quercus kelloggii
-  height: 30-80
-  width: 30
-  wiki: https://en.wikipedia.org/wiki/Quercus_kelloggii
-  extra_url: https://www.csustan.edu/campus-tree-story-map/california-black-oak-quercus-kelloggii
 - title: California Redbud
   kind: tree
   phylum: angiosperm
