@@ -455,12 +455,12 @@
   default_yaw: 0
   image_url: aleppo_pine.jpg
   thumbnail: aleppo_pine_th.jpg
-  lat: 36.814215
-  lon: -119.750265
-  geo_fence_nw_lat: 36.814352
-  geo_fence_nw_lon: -119.749121
-  geo_fence_se_lat: 36.814127
-  geo_fence_se_lon: -119.748727
+  lat: 36.814189
+  lon: -119.748784
+  geo_fence_nw_lat: 36.814260
+  geo_fence_nw_lon: -119.748840
+  geo_fence_se_lat: 36.814130
+  geo_fence_se_lon: -119.748703
   scientific_name: Pinus halepensis
   height: 30-60
   width: 20-30
